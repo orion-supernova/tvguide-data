@@ -1,0 +1,375 @@
+{
+ "country": "tr",
+ "timezone": "Europe/Istanbul",
+ "channels": [
+  {
+   "id": "trt1",
+   "name": "TRT 1",
+   "group": "ulusal",
+   "order": 0,
+   "digiturk": "19",
+   "tvplus": "144",
+   "logo": "https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/6/1025405808145eb9b42e_op_0_XL.webp"
+  },
+  {
+   "id": "atv",
+   "name": "ATV",
+   "group": "ulusal",
+   "order": 1,
+   "digiturk": "300",
+   "tvplus": "124",
+   "logo": "https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/71/0916028009315eb88428_op_0_XL.webp"
+  },
+  {
+   "id": "show",
+   "name": "Show TV",
+   "group": "ulusal",
+   "order": 2,
+   "digiturk": "294",
+   "tvplus": "130",
+   "logo": "https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/96/0948464043915eb9542c_op_0_XL.webp"
+  },
+  {
+   "id": "star",
+   "name": "Star TV",
+   "group": "ulusal",
+   "order": 3,
+   "digiturk": "406",
+   "tvplus": "89",
+   "logo": "https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/64/1003520560175eb8f42a_op_0_XL.webp"
+  },
+  {
+   "id": "kanald",
+   "name": "Kanal D",
+   "group": "ulusal",
+   "order": 4,
+   "digiturk": "430",
+   "tvplus": "88",
+   "logo": "https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/87/0937065579965eb8f42a_op_0_XL.webp"
+  },
+  {
+   "id": "now",
+   "name": "NOW",
+   "group": "ulusal",
+   "order": 5,
+   "digiturk": "18",
+   "tvplus": "93",
+   "logo": "https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/82/0947057422345eb7f426_op_0_XL.webp"
+  },
+  {
+   "id": "tv8",
+   "name": "TV8",
+   "group": "ulusal",
+   "order": 6,
+   "digiturk": "428",
+   "tvplus": "134",
+   "logo": "https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/98/1026575965175eb78424_op_0_XL.webp"
+  },
+  {
+   "id": "kanal7",
+   "name": "Kanal 7",
+   "group": "ulusal",
+   "order": 7,
+   "digiturk": "439",
+   "tvplus": "90",
+   "logo": "https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202505/20250514/7/2112241317575eb7f426_op_0_XL.webp"
+  },
+  {
+   "id": "beyaz",
+   "name": "Beyaz TV",
+   "group": "ulusal",
+   "order": 8,
+   "digiturk": "188",
+   "tvplus": "135",
+   "logo": "https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202505/20250514/53/2113355458665eb9b42e_op_0_XL.webp"
+  },
+  {
+   "id": "tv85",
+   "name": "TV8,5",
+   "group": "ulusal",
+   "order": 9,
+   "digiturk": "489",
+   "tvplus": "188",
+   "logo": "https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/45/1027323438155eb9b42e_op_0_XL.webp"
+  },
+  {
+   "id": "teve2",
+   "name": "Teve2",
+   "group": "ulusal",
+   "order": 10,
+   "digiturk": "256",
+   "tvplus": "95",
+   "logo": "https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/38/1011266014555eb9542c_op_0_XL.webp"
+  },
+  {
+   "id": "360",
+   "name": "360",
+   "group": "ulusal",
+   "order": 11,
+   "digiturk": "30",
+   "tvplus": "86",
+   "logo": "https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/45/0909261639285eb88428_op_0_XL.webp"
+  },
+  {
+   "id": "trt2",
+   "name": "TRT 2",
+   "group": "ulusal",
+   "order": 12,
+   "digiturk": "308",
+   "tvplus": "83",
+   "logo": "https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/49/1013374195105eb78424_op_0_XL.webp"
+  },
+  {
+   "id": "trthaber",
+   "name": "TRT Haber",
+   "group": "haber",
+   "order": 13,
+   "digiturk": "20",
+   "tvplus": "30",
+   "logo": "https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/0/1020177474605eb9542c_op_0_XL.webp"
+  },
+  {
+   "id": "haberturk",
+   "name": "Habertürk",
+   "group": "haber",
+   "order": 14,
+   "digiturk": "31",
+   "tvplus": "87",
+   "logo": "https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/27/0935195248285eb78424_op_0_XL.webp"
+  },
+  {
+   "id": "cnnturk",
+   "name": "CNN Türk",
+   "group": "haber",
+   "order": 15,
+   "digiturk": "29",
+   "tvplus": "158",
+   "logo": "https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/60/0924025077665eb78424_op_0_XL.webp"
+  },
+  {
+   "id": "ntv",
+   "name": "NTV",
+   "group": "haber",
+   "order": 16,
+   "digiturk": "28",
+   "tvplus": "81",
+   "logo": "https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/36/0947520532355eb7f426_op_0_XL.webp"
+  },
+  {
+   "id": "halktv",
+   "name": "Halk TV",
+   "group": "haber",
+   "order": 17,
+   "digiturk": "298",
+   "tvplus": "91",
+   "logo": "https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202505/20250514/57/2112191538425eb78424_op_0_XL.webp"
+  },
+  {
+   "id": "sozcu",
+   "name": "Sözcü TV",
+   "group": "haber",
+   "order": 18,
+   "digiturk": "544",
+   "tvplus": "4294",
+   "logo": "https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/54/1000562034815eb9b42e_op_0_XL.webp"
+  },
+  {
+   "id": "tv100",
+   "name": "tv100",
+   "group": "haber",
+   "order": 19,
+   "digiturk": "527",
+   "tvplus": "179",
+   "logo": "https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202505/20250514/2/2114544793695eb8f42a_op_0_XL.webp"
+  },
+  {
+   "id": "ahaber",
+   "name": "A Haber",
+   "group": "haber",
+   "order": 20,
+   "digiturk": "301",
+   "tvplus": "160",
+   "logo": "https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/78/0910272687595eb78424_op_0_XL.webp"
+  },
+  {
+   "id": "tgrthaber",
+   "name": "TGRT Haber",
+   "group": "haber",
+   "order": 21,
+   "digiturk": "84",
+   "tvplus": "34",
+   "logo": "https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202505/20250514/48/2119142499835eb88428_op_0_XL.webp"
+  },
+  {
+   "id": "haberglobal",
+   "name": "Haber Global",
+   "group": "haber",
+   "order": 22,
+   "digiturk": "520",
+   "tvplus": "5",
+   "logo": "https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202507/20250704/34/1109555471285eb88428_op_0_XL.png"
+  },
+  {
+   "id": "24tv",
+   "name": "24",
+   "group": "haber",
+   "order": 23,
+   "digiturk": "178",
+   "tvplus": "32",
+   "logo": "https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202505/20250514/38/2121454663735eb8f42a_op_0_XL.webp"
+  },
+  {
+   "id": "bloomberght",
+   "name": "Bloomberg HT",
+   "group": "haber",
+   "order": 24,
+   "digiturk": "24",
+   "tvplus": "96",
+   "logo": "https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/89/0918582099855eb8f42a_op_0_XL.webp"
+  },
+  {
+   "id": "trtspor",
+   "name": "TRT Spor",
+   "group": "spor",
+   "order": 25,
+   "digiturk": "331",
+   "tvplus": "31",
+   "logo": "https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/64/1023220948135eb9b42e_op_0_XL.webp"
+  },
+  {
+   "id": "trtsporyildiz",
+   "name": "TRT Spor Yıldız",
+   "group": "spor",
+   "order": 26,
+   "digiturk": "533",
+   "tvplus": "205",
+   "logo": "https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/51/1022338012585eb8f42a_op_0_XL.webp"
+  },
+  {
+   "id": "aspor",
+   "name": "A Spor",
+   "group": "spor",
+   "order": 27,
+   "digiturk": "433",
+   "tvplus": "3",
+   "logo": "https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/97/0913405847615eb78424_op_0_XL.webp"
+  },
+  {
+   "id": "bein1",
+   "name": "beIN Sports 1",
+   "group": "spor",
+   "order": 28,
+   "digiturk": "193",
+   "tvplus": null,
+   "logo": null
+  },
+  {
+   "id": "bein2",
+   "name": "beIN Sports 2",
+   "group": "spor",
+   "order": 29,
+   "digiturk": "310",
+   "tvplus": null,
+   "logo": null
+  },
+  {
+   "id": "bein3",
+   "name": "beIN Sports 3",
+   "group": "spor",
+   "order": 30,
+   "digiturk": "312",
+   "tvplus": null,
+   "logo": null
+  },
+  {
+   "id": "bein4",
+   "name": "beIN Sports 4",
+   "group": "spor",
+   "order": 31,
+   "digiturk": "495",
+   "tvplus": null,
+   "logo": null
+  },
+  {
+   "id": "bein5",
+   "name": "beIN Sports 5",
+   "group": "spor",
+   "order": 32,
+   "digiturk": "506",
+   "tvplus": null,
+   "logo": null
+  },
+  {
+   "id": "beinhaber",
+   "name": "beIN Sports Haber",
+   "group": "spor",
+   "order": 33,
+   "digiturk": "541",
+   "tvplus": null,
+   "logo": null
+  },
+  {
+   "id": "trtcocuk",
+   "name": "TRT Çocuk",
+   "group": "cocuk",
+   "order": 34,
+   "digiturk": "243",
+   "tvplus": "99",
+   "logo": "https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/92/1018103992555eb8f42a_op_0_XL.webp"
+  },
+  {
+   "id": "minikago",
+   "name": "Minika Go",
+   "group": "cocuk",
+   "order": 35,
+   "digiturk": "291",
+   "tvplus": "7",
+   "logo": "https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/44/0939270193905eb9b42e_op_0_XL.webp"
+  },
+  {
+   "id": "cartoon",
+   "name": "Cartoon Network",
+   "group": "cocuk",
+   "order": 36,
+   "digiturk": "220",
+   "tvplus": "20",
+   "logo": "https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/15/0921355543825eb9b42e_op_0_XL.webp"
+  },
+  {
+   "id": "disneyjr",
+   "name": "Disney Junior",
+   "group": "cocuk",
+   "order": 37,
+   "digiturk": "282",
+   "tvplus": "149",
+   "logo": "https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250624/88/1037336465695eb9542c_op_0_XL.webp"
+  },
+  {
+   "id": "trtbelgesel",
+   "name": "TRT Belgesel",
+   "group": "belgesel",
+   "order": 38,
+   "digiturk": "487",
+   "tvplus": "21",
+   "logo": "https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/64/1016467574585eb9542c_op_0_XL.webp"
+  },
+  {
+   "id": "natgeo",
+   "name": "National Geographic",
+   "group": "belgesel",
+   "order": 39,
+   "digiturk": "214",
+   "tvplus": "2799",
+   "logo": "https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/38/0942210759995eb8f42a_op_0_XL.webp"
+  },
+  {
+   "id": "discovery",
+   "name": "Discovery",
+   "group": "belgesel",
+   "order": 40,
+   "digiturk": "317",
+   "tvplus": "8",
+   "logo": "https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/10/0926268422105eb7f426_op_0_XL.webp"
+  }
+ ]
+}
