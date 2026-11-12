@@ -307,7 +307,7 @@ async function main() {
   const updatedAt = Math.floor(Date.now() / 1000)
   await writeFile(join(OUT, 'tr', 'channels.json'), JSON.stringify({ country: 'tr', timezone: cfg.timezone, updatedAt, channels }))
   await writeFile(join(OUT, 'tr', 'index.json'), JSON.stringify({ updatedAt, dates }))
-  await writeFile(join(OUT, 'index.html'), '<!doctype html><meta charset="utf-8"><title>TV Rehberi data</title><p>TV Rehberi data feed.</p>')
+  await writeFile(join(OUT, 'index.html'), '<!doctype html><meta charset="utf-8"><title>TV Guide data</title><p>TV Guide data feed.</p>')
 
   // 6) report
   const todayStats = stats.filter((s) => s.ymd === today)
