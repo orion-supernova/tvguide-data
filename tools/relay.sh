@@ -14,5 +14,6 @@ cd "$TMP"
 git init -q -b relay
 git add digiturk.json
 git -c user.name="tvguide relay" -c user.email="relay@users.noreply.github.com" commit -q -m "Digiturk relay $(date -u +%FT%TZ)"
+git -C "$REPO" pull -q --ff-only || true
 git push -q --force "$(git -C "$REPO" remote get-url origin)" relay:relay
 echo "relay pushed $(date)"
