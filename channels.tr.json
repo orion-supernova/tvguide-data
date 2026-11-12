@@ -261,7 +261,8 @@
    "order": 28,
    "digiturk": "193",
    "tvplus": null,
-   "logo": null
+   "logo": null,
+   "bein": "beinsports"
   },
   {
    "id": "bein2",
@@ -270,7 +271,8 @@
    "order": 29,
    "digiturk": "310",
    "tvplus": null,
-   "logo": null
+   "logo": null,
+   "bein": "beinsports-2"
   },
   {
    "id": "bein3",
@@ -279,7 +281,8 @@
    "order": 30,
    "digiturk": "312",
    "tvplus": null,
-   "logo": null
+   "logo": null,
+   "bein": "beinsports-3"
   },
   {
    "id": "bein4",
@@ -288,7 +291,8 @@
    "order": 31,
    "digiturk": "495",
    "tvplus": null,
-   "logo": null
+   "logo": null,
+   "bein": "beinsports-4"
   },
   {
    "id": "bein5",
@@ -297,7 +301,8 @@
    "order": 32,
    "digiturk": "506",
    "tvplus": null,
-   "logo": null
+   "logo": null,
+   "bein": "beinsports-5"
   },
   {
    "id": "beinhaber",
@@ -306,7 +311,8 @@
    "order": 33,
    "digiturk": "541",
    "tvplus": null,
-   "logo": null
+   "logo": null,
+   "bein": "bein-sports-haber"
   },
   {
    "id": "trtcocuk",
