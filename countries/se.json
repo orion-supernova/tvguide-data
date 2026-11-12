@@ -1,0 +1,206 @@
+{
+ "code": "se",
+ "name": "Sverige",
+ "nameEn": "Sweden",
+ "tz": "Europe/Stockholm",
+ "source": {
+  "type": "tv24",
+  "delay": 700
+ },
+ "channels": [
+  {
+   "id": "svt1",
+   "name": "SVT1",
+   "group": "general",
+   "site_id": "svt1",
+   "xmltv": "SVT1.se"
+  },
+  {
+   "id": "svt2",
+   "name": "SVT2",
+   "group": "general",
+   "site_id": "svt2",
+   "xmltv": "SVT2.se"
+  },
+  {
+   "id": "tv4",
+   "name": "TV4",
+   "group": "general",
+   "site_id": "tv4",
+   "xmltv": "TV4.se"
+  },
+  {
+   "id": "kanal5",
+   "name": "Kanal 5",
+   "group": "general",
+   "site_id": "kanal-5",
+   "xmltv": "Kanal5.se"
+  },
+  {
+   "id": "tv3",
+   "name": "TV3",
+   "group": "general",
+   "site_id": "tv3",
+   "xmltv": "TV3.se"
+  },
+  {
+   "id": "tv6",
+   "name": "TV6",
+   "group": "general",
+   "site_id": "tv6",
+   "xmltv": "TV6.se"
+  },
+  {
+   "id": "sjuan",
+   "name": "Sjuan",
+   "group": "general",
+   "site_id": "sjuan",
+   "xmltv": "Sjuan.se"
+  },
+  {
+   "id": "tv8",
+   "name": "TV8",
+   "group": "general",
+   "site_id": "tv8",
+   "xmltv": "TV8.se"
+  },
+  {
+   "id": "kanal9",
+   "name": "Kanal 9",
+   "group": "general",
+   "site_id": "kanal-9",
+   "xmltv": "Kanal9.se"
+  },
+  {
+   "id": "tv10",
+   "name": "TV10",
+   "group": "general",
+   "site_id": "tv10",
+   "xmltv": "TV10.se"
+  },
+  {
+   "id": "tv12",
+   "name": "TV12",
+   "group": "general",
+   "site_id": "tv12",
+   "xmltv": "TV12.se"
+  },
+  {
+   "id": "kanal11",
+   "name": "Kanal 11",
+   "group": "general",
+   "site_id": "kanal-11",
+   "xmltv": "Kanal11.se"
+  },
+  {
+   "id": "svt24",
+   "name": "SVT24",
+   "group": "news",
+   "site_id": "svt24",
+   "xmltv": "SVT24.se"
+  },
+  {
+   "id": "tv4sportkanalen",
+   "name": "TV4 Sportkanalen",
+   "group": "sports",
+   "site_id": "tv4-sportkanalen"
+  },
+  {
+   "id": "tv4fotboll",
+   "name": "TV4 Fotboll",
+   "group": "sports",
+   "site_id": "tv4-fotboll"
+  },
+  {
+   "id": "eurosport1",
+   "name": "Eurosport 1",
+   "group": "sports",
+   "site_id": "eurosport-1",
+   "xmltv": "Eurosport1.fr"
+  },
+  {
+   "id": "vsportextra",
+   "name": "V Sport Extra",
+   "group": "sports",
+   "site_id": "v-sport-extra",
+   "xmltv": "VSportExtra.se"
+  },
+  {
+   "id": "svtbarn",
+   "name": "SVT Barn",
+   "group": "kids",
+   "site_id": "svt-barn",
+   "xmltv": "SVTBarn.se"
+  },
+  {
+   "id": "nickelodeon",
+   "name": "Nickelodeon",
+   "group": "kids",
+   "site_id": "nickelodeon",
+   "xmltv": "Nickelodeon.se"
+  },
+  {
+   "id": "disneychannel",
+   "name": "Disney Channel",
+   "group": "kids",
+   "site_id": "disney-channel",
+   "xmltv": "DisneyChannelScandinavia.uk"
+  },
+  {
+   "id": "cartoonnetwork",
+   "name": "Cartoon Network",
+   "group": "kids",
+   "site_id": "cartoon-network",
+   "xmltv": "CartoonNetworkWesternEurope.uk"
+  },
+  {
+   "id": "kunskapskanalen",
+   "name": "Kunskapskanalen",
+   "group": "docs",
+   "site_id": "kunskapskanalen",
+   "xmltv": "Kunskapskanalen.se"
+  },
+  {
+   "id": "tv4fakta",
+   "name": "TV4 Fakta",
+   "group": "docs",
+   "site_id": "tv4-fakta",
+   "xmltv": "TV4Fakta.se"
+  },
+  {
+   "id": "discovery",
+   "name": "Discovery Channel",
+   "group": "docs",
+   "site_id": "discovery-channel",
+   "xmltv": "DiscoveryChannel.se"
+  },
+  {
+   "id": "natgeo",
+   "name": "National Geographic",
+   "group": "docs",
+   "site_id": "national-geographic",
+   "xmltv": "NationalGeographic.se"
+  },
+  {
+   "id": "history",
+   "name": "History",
+   "group": "docs",
+   "site_id": "history",
+   "xmltv": "History.se"
+  },
+  {
+   "id": "tv4film",
+   "name": "TV4 Film",
+   "group": "movies",
+   "site_id": "tv4-film",
+   "xmltv": "TV4Film.se"
+  },
+  {
+   "id": "vfilmpremiere",
+   "name": "V Film Premiere",
+   "group": "movies",
+   "site_id": "v-film-premiere-hd",
+   "xmltv": "VFilmPremiere.se"
+  }
+ ]
+}

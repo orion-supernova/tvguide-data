@@ -1,0 +1,222 @@
+{
+ "code": "it",
+ "name": "Italia",
+ "nameEn": "Italy",
+ "tz": "Europe/Rome",
+ "source": {
+  "type": "skyit",
+  "delay": 500
+ },
+ "channels": [
+  {
+   "id": "rai1",
+   "name": "Rai 1",
+   "group": "general",
+   "site_id": "DTH#899",
+   "xmltv": "Rai1.it"
+  },
+  {
+   "id": "rai2",
+   "name": "Rai 2",
+   "group": "general",
+   "site_id": "DTH#898",
+   "xmltv": "Rai2.it"
+  },
+  {
+   "id": "rai3",
+   "name": "Rai 3",
+   "group": "general",
+   "site_id": "DTH#897",
+   "xmltv": "Rai3.it"
+  },
+  {
+   "id": "rete4",
+   "name": "Rete 4",
+   "group": "general",
+   "site_id": "DTH#10464",
+   "xmltv": "Rete4.it"
+  },
+  {
+   "id": "canale5",
+   "name": "Canale 5",
+   "group": "general",
+   "site_id": "DTH#10354",
+   "xmltv": "Canale5.it"
+  },
+  {
+   "id": "italia1",
+   "name": "Italia 1",
+   "group": "general",
+   "site_id": "DTH#10454",
+   "xmltv": "Italia1.it"
+  },
+  {
+   "id": "la7",
+   "name": "LA7",
+   "group": "general",
+   "site_id": "DTH#319",
+   "xmltv": "LA7.it"
+  },
+  {
+   "id": "tv8",
+   "name": "TV8",
+   "group": "general",
+   "site_id": "DTH#8195",
+   "xmltv": "TV8.it"
+  },
+  {
+   "id": "cielo",
+   "name": "Cielo",
+   "group": "general",
+   "site_id": "DTH#8133",
+   "xmltv": "Cielo.it"
+  },
+  {
+   "id": "20mediaset",
+   "name": "20Mediaset",
+   "group": "general",
+   "site_id": "DTH#10458",
+   "xmltv": "20.it"
+  },
+  {
+   "id": "rai4",
+   "name": "Rai 4",
+   "group": "general",
+   "site_id": "DTH#6622",
+   "xmltv": "Rai4.it"
+  },
+  {
+   "id": "rai5",
+   "name": "Rai 5",
+   "group": "general",
+   "site_id": "DTH#6607",
+   "xmltv": "Rai5.it"
+  },
+  {
+   "id": "raipremium",
+   "name": "Rai Premium",
+   "group": "general",
+   "site_id": "DTH#6623",
+   "xmltv": "RaiPremium.it"
+  },
+  {
+   "id": "skyuno",
+   "name": "Sky Uno",
+   "group": "general",
+   "site_id": "DTH#9115",
+   "xmltv": "SkyUno.it"
+  },
+  {
+   "id": "rainews24",
+   "name": "Rai News 24",
+   "group": "news",
+   "site_id": "DTH#895",
+   "xmltv": "RaiNews24.it"
+  },
+  {
+   "id": "skytg24",
+   "name": "Sky TG24",
+   "group": "news",
+   "site_id": "DTH#9117",
+   "xmltv": "SkyTG24.it"
+  },
+  {
+   "id": "tgcom24",
+   "name": "TgCom24",
+   "group": "news",
+   "site_id": "DTH#10473",
+   "xmltv": "TGCom24.it"
+  },
+  {
+   "id": "raisport",
+   "name": "Rai Sport",
+   "group": "sports",
+   "site_id": "DTH#807",
+   "xmltv": "RaiSport.it"
+  },
+  {
+   "id": "skysportuno",
+   "name": "Sky Sport Uno",
+   "group": "sports",
+   "site_id": "DTH#9097",
+   "xmltv": "SkySportUno.it"
+  },
+  {
+   "id": "skysportcalcio",
+   "name": "Sky Sport Calcio",
+   "group": "sports",
+   "site_id": "DTH#9113",
+   "xmltv": "SkySportCalcio.it"
+  },
+  {
+   "id": "skysport24",
+   "name": "Sky Sport 24",
+   "group": "sports",
+   "site_id": "DTH#9094",
+   "xmltv": "SkySport24.it"
+  },
+  {
+   "id": "raiyoyo",
+   "name": "Rai Yoyo",
+   "group": "kids",
+   "site_id": "DTH#6609",
+   "xmltv": "RaiYoyo.it"
+  },
+  {
+   "id": "raigulp",
+   "name": "Rai Gulp",
+   "group": "kids",
+   "site_id": "DTH#6629",
+   "xmltv": "RaiGulp.it"
+  },
+  {
+   "id": "super",
+   "name": "Super!",
+   "group": "kids",
+   "site_id": "DTH#6460",
+   "xmltv": "Super.it"
+  },
+  {
+   "id": "cartoonnetwork",
+   "name": "Cartoon Network",
+   "group": "kids",
+   "site_id": "DTH#9693",
+   "xmltv": "CartoonNetwork.it"
+  },
+  {
+   "id": "raistoria",
+   "name": "Rai Storia",
+   "group": "docs",
+   "site_id": "DTH#6630",
+   "xmltv": "RaiStoria.it"
+  },
+  {
+   "id": "focus",
+   "name": "Focus",
+   "group": "docs",
+   "site_id": "DTH#10470",
+   "xmltv": "Focus.it"
+  },
+  {
+   "id": "raimovie",
+   "name": "Rai Movie",
+   "group": "movies",
+   "site_id": "DTH#6608",
+   "xmltv": "RaiMovie.it"
+  },
+  {
+   "id": "iris",
+   "name": "Iris",
+   "group": "movies",
+   "site_id": "DTH#10467",
+   "xmltv": "Iris.it"
+  },
+  {
+   "id": "skycinemauno",
+   "name": "Sky Cinema Uno",
+   "group": "movies",
+   "site_id": "DTH#9044",
+   "xmltv": "SkyCinemaUno.it"
+  }
+ ]
+}

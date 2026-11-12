@@ -1,0 +1,215 @@
+{
+ "code": "es",
+ "name": "España",
+ "nameEn": "Spain",
+ "tz": "Europe/Madrid",
+ "source": {
+  "type": "movistar",
+  "delay": 400
+ },
+ "channels": [
+  {
+   "id": "la1",
+   "name": "La 1",
+   "group": "general",
+   "site_id": "TVE",
+   "xmltv": "La1.es"
+  },
+  {
+   "id": "la2",
+   "name": "La 2",
+   "group": "general",
+   "site_id": "LA2",
+   "xmltv": "La2.es"
+  },
+  {
+   "id": "antena3",
+   "name": "Antena 3",
+   "group": "general",
+   "site_id": "A3",
+   "xmltv": "Antena3.es"
+  },
+  {
+   "id": "cuatro",
+   "name": "Cuatro",
+   "group": "general",
+   "site_id": "C4",
+   "xmltv": "Cuatro.es"
+  },
+  {
+   "id": "telecinco",
+   "name": "Telecinco",
+   "group": "general",
+   "site_id": "T5",
+   "xmltv": "Telecinco.es"
+  },
+  {
+   "id": "lasexta",
+   "name": "laSexta",
+   "group": "general",
+   "site_id": "SEXTA",
+   "xmltv": "LaSexta.es"
+  },
+  {
+   "id": "neox",
+   "name": "Neox",
+   "group": "general",
+   "site_id": "NEOX",
+   "xmltv": "Neox.es"
+  },
+  {
+   "id": "nova",
+   "name": "Nova",
+   "group": "general",
+   "site_id": "NOVA",
+   "xmltv": "Nova.es"
+  },
+  {
+   "id": "fdf",
+   "name": "FDF",
+   "group": "general",
+   "site_id": "FDFIC",
+   "xmltv": "FactoriadeFiccion.es"
+  },
+  {
+   "id": "divinity",
+   "name": "Divinity",
+   "group": "general",
+   "site_id": "DIVINI",
+   "xmltv": "Divinity.es"
+  },
+  {
+   "id": "energy",
+   "name": "Energy",
+   "group": "general",
+   "site_id": "ENERGY",
+   "xmltv": "Energy.es"
+  },
+  {
+   "id": "atreseries",
+   "name": "Atreseries",
+   "group": "general",
+   "site_id": "ATRESS",
+   "xmltv": "Atreseries.es"
+  },
+  {
+   "id": "trece",
+   "name": "TRECE",
+   "group": "general",
+   "site_id": "13TV",
+   "xmltv": "Trece.es"
+  },
+  {
+   "id": "mega",
+   "name": "Mega",
+   "group": "general",
+   "site_id": "MEGA",
+   "xmltv": "Mega.es"
+  },
+  {
+   "id": "movistarplus",
+   "name": "Movistar Plus+",
+   "group": "general",
+   "site_id": "MPLUS",
+   "xmltv": "MovistarPlusPlus.es"
+  },
+  {
+   "id": "24h",
+   "name": "24 Horas",
+   "group": "news",
+   "site_id": "24H",
+   "xmltv": "24Horas.es"
+  },
+  {
+   "id": "teledeporte",
+   "name": "Teledeporte",
+   "group": "sports",
+   "site_id": "TDEP",
+   "xmltv": "Teledeporte.es"
+  },
+  {
+   "id": "mlaliga",
+   "name": "M+ LALIGA",
+   "group": "sports",
+   "site_id": "MLIGA",
+   "xmltv": "LaLigaTVporMovistarPlusPlus.es"
+  },
+  {
+   "id": "mligacampeones",
+   "name": "M+ Liga de Campeones",
+   "group": "sports",
+   "site_id": "CHAPIO",
+   "xmltv": "LigadeCampeonesporMovistarPlusPlus.es"
+  },
+  {
+   "id": "mdeportes",
+   "name": "M+ Deportes",
+   "group": "sports",
+   "site_id": "CPDEP",
+   "xmltv": "DeportesporMovistarPlusPlus.es"
+  },
+  {
+   "id": "daznlaliga",
+   "name": "DAZN LALIGA",
+   "group": "sports",
+   "site_id": "DAZNLI",
+   "xmltv": "DAZNLaLiga.uk"
+  },
+  {
+   "id": "clan",
+   "name": "Clan",
+   "group": "kids",
+   "site_id": "CLANTV",
+   "xmltv": "Clan.es"
+  },
+  {
+   "id": "boing",
+   "name": "Boing",
+   "group": "kids",
+   "site_id": "BOING",
+   "xmltv": "Boing.es"
+  },
+  {
+   "id": "disneychannel",
+   "name": "Disney Channel",
+   "group": "kids",
+   "site_id": "PLAYDC",
+   "xmltv": "DisneyChannel.es"
+  },
+  {
+   "id": "dmax",
+   "name": "DMAX",
+   "group": "docs",
+   "site_id": "DCRMAX",
+   "xmltv": "DMAX.es"
+  },
+  {
+   "id": "natgeo",
+   "name": "National Geographic",
+   "group": "docs",
+   "site_id": "NATGEO",
+   "xmltv": "NationalGeographic.es"
+  },
+  {
+   "id": "mdocumentales",
+   "name": "M+ Documentales",
+   "group": "docs",
+   "site_id": "MDOC",
+   "xmltv": "DocumentalesporMovistarPlusPlus.es"
+  },
+  {
+   "id": "mestrenos",
+   "name": "M+ Estrenos",
+   "group": "movies",
+   "site_id": "MV1",
+   "xmltv": "CineporMovistarPlusPlus.es"
+  },
+  {
+   "id": "tcm",
+   "name": "TCM",
+   "group": "movies",
+   "site_id": "TCM",
+   "xmltv": "TCM.es"
+  }
+ ]
+}

@@ -1,0 +1,210 @@
+{
+ "code": "nl",
+ "name": "Nederland",
+ "nameEn": "Netherlands",
+ "tz": "Europe/Amsterdam",
+ "source": {
+  "type": "epg",
+  "site": "tvgids.nl",
+  "lang": "nl",
+  "delay": 1500
+ },
+ "channels": [
+  {
+   "id": "npo1",
+   "name": "NPO 1",
+   "group": "general",
+   "site_id": "npo1",
+   "xmltv": "NPO1.nl"
+  },
+  {
+   "id": "npo2",
+   "name": "NPO 2",
+   "group": "general",
+   "site_id": "npo2",
+   "xmltv": "NPO2.nl"
+  },
+  {
+   "id": "npo3",
+   "name": "NPO 3",
+   "group": "general",
+   "site_id": "npo3",
+   "xmltv": "NPO3.nl"
+  },
+  {
+   "id": "rtl4",
+   "name": "RTL 4",
+   "group": "general",
+   "site_id": "rtl4",
+   "xmltv": "RTL4.nl"
+  },
+  {
+   "id": "rtl5",
+   "name": "RTL 5",
+   "group": "general",
+   "site_id": "rtl5",
+   "xmltv": "RTL5.nl"
+  },
+  {
+   "id": "sbs6",
+   "name": "SBS 6",
+   "group": "general",
+   "site_id": "sbs6",
+   "xmltv": "SBS6.nl"
+  },
+  {
+   "id": "rtl7",
+   "name": "RTL 7",
+   "group": "general",
+   "site_id": "rtl7",
+   "xmltv": "RTL7.nl"
+  },
+  {
+   "id": "veronica",
+   "name": "Veronica",
+   "group": "general",
+   "site_id": "veronica",
+   "xmltv": "Veronica.nl"
+  },
+  {
+   "id": "net5",
+   "name": "NET 5",
+   "group": "general",
+   "site_id": "net5",
+   "xmltv": "NET5.nl"
+  },
+  {
+   "id": "rtl8",
+   "name": "RTL 8",
+   "group": "general",
+   "site_id": "rtl8",
+   "xmltv": "RTL8.nl"
+  },
+  {
+   "id": "comedycentral",
+   "name": "Comedy Central",
+   "group": "general",
+   "site_id": "comedycentral",
+   "xmltv": "ComedyCentral.nl"
+  },
+  {
+   "id": "npopolitiek",
+   "name": "NPO Politiek en Nieuws",
+   "group": "news",
+   "site_id": "npopolitiek",
+   "xmltv": "NPOPolitiekenNieuws.nl"
+  },
+  {
+   "id": "cnn",
+   "name": "CNN",
+   "group": "news",
+   "site_id": "cnn",
+   "xmltv": "CNNInternational.us"
+  },
+  {
+   "id": "ziggosport",
+   "name": "Ziggo Sport",
+   "group": "sports",
+   "site_id": "ziggosport",
+   "xmltv": "ZiggoSport.nl"
+  },
+  {
+   "id": "ziggosport2",
+   "name": "Ziggo Sport 2",
+   "group": "sports",
+   "site_id": "ziggosport2",
+   "xmltv": "ZiggoSport2.nl"
+  },
+  {
+   "id": "espn",
+   "name": "ESPN",
+   "group": "sports",
+   "site_id": "espn",
+   "xmltv": "ESPN.nl"
+  },
+  {
+   "id": "espn2",
+   "name": "ESPN 2",
+   "group": "sports",
+   "site_id": "espn2",
+   "xmltv": "ESPN2.nl"
+  },
+  {
+   "id": "eurosport1",
+   "name": "Eurosport 1",
+   "group": "sports",
+   "site_id": "eurosport1",
+   "xmltv": "Eurosport1.fr"
+  },
+  {
+   "id": "nickelodeon",
+   "name": "Nickelodeon",
+   "group": "kids",
+   "site_id": "nickelodeon",
+   "xmltv": "Nickelodeon.nl"
+  },
+  {
+   "id": "disneychannel",
+   "name": "Disney Channel",
+   "group": "kids",
+   "site_id": "disneychannel",
+   "xmltv": "DisneyChannel.nl"
+  },
+  {
+   "id": "rtltelekids",
+   "name": "RTL Telekids",
+   "group": "kids",
+   "site_id": "rtltelekids",
+   "xmltv": "RTLTelekids.nl"
+  },
+  {
+   "id": "cartoonnetwork",
+   "name": "Cartoon Network",
+   "group": "kids",
+   "site_id": "cartoonnetwork",
+   "xmltv": "CartoonNetworkWesternEurope.uk"
+  },
+  {
+   "id": "discovery",
+   "name": "Discovery",
+   "group": "docs",
+   "site_id": "discovery",
+   "xmltv": "DiscoveryChannel.nl"
+  },
+  {
+   "id": "natgeo",
+   "name": "National Geographic",
+   "group": "docs",
+   "site_id": "ngc",
+   "xmltv": "NationalGeographic.nl"
+  },
+  {
+   "id": "history",
+   "name": "HISTORY",
+   "group": "docs",
+   "site_id": "history",
+   "xmltv": "History.nl"
+  },
+  {
+   "id": "tlc",
+   "name": "TLC",
+   "group": "docs",
+   "site_id": "tlc",
+   "xmltv": "TLC.nl"
+  },
+  {
+   "id": "film1premiere",
+   "name": "Film1 Premiere",
+   "group": "movies",
+   "site_id": "film1premiere",
+   "xmltv": "Film1Premiere.nl"
+  },
+  {
+   "id": "film1action",
+   "name": "Film1 Action",
+   "group": "movies",
+   "site_id": "film1action",
+   "xmltv": "Film1Action.nl"
+  }
+ ]
+}

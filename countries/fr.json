@@ -1,0 +1,217 @@
+{
+ "code": "fr",
+ "name": "France",
+ "nameEn": "France",
+ "tz": "Europe/Paris",
+ "source": {
+  "type": "epg",
+  "site": "programme-tv.net",
+  "lang": "fr",
+  "delay": 1500
+ },
+ "channels": [
+  {
+   "id": "tf1",
+   "name": "TF1",
+   "group": "general",
+   "site_id": "tf1-19",
+   "xmltv": "TF1.fr"
+  },
+  {
+   "id": "france2",
+   "name": "France 2",
+   "group": "general",
+   "site_id": "france-2-6",
+   "xmltv": "France2.fr"
+  },
+  {
+   "id": "france3",
+   "name": "France 3",
+   "group": "general",
+   "site_id": "france-3-7",
+   "xmltv": "France3.fr"
+  },
+  {
+   "id": "canalplus",
+   "name": "Canal+",
+   "group": "general",
+   "site_id": "canalplus-2",
+   "xmltv": "CanalPlus.fr"
+  },
+  {
+   "id": "france5",
+   "name": "France 5",
+   "group": "general",
+   "site_id": "france-5-9",
+   "xmltv": "France5.fr"
+  },
+  {
+   "id": "m6",
+   "name": "M6",
+   "group": "general",
+   "site_id": "m6-12",
+   "xmltv": "M6.fr"
+  },
+  {
+   "id": "arte",
+   "name": "Arte",
+   "group": "general",
+   "site_id": "arte-337",
+   "xmltv": "arte.fr"
+  },
+  {
+   "id": "tmc",
+   "name": "TMC",
+   "group": "general",
+   "site_id": "tmc-21",
+   "xmltv": "TMC.fr"
+  },
+  {
+   "id": "w9",
+   "name": "W9",
+   "group": "general",
+   "site_id": "w9-24",
+   "xmltv": "W9.fr"
+  },
+  {
+   "id": "tfx",
+   "name": "TFX",
+   "group": "general",
+   "site_id": "tfx-14",
+   "xmltv": "TFX.fr"
+  },
+  {
+   "id": "france4",
+   "name": "France 4",
+   "group": "general",
+   "site_id": "france-4-8",
+   "xmltv": "France4.fr"
+  },
+  {
+   "id": "6ter",
+   "name": "6ter",
+   "group": "general",
+   "site_id": "6ter-202",
+   "xmltv": "6ter.fr"
+  },
+  {
+   "id": "rmcstory",
+   "name": "RMC Story",
+   "group": "general",
+   "site_id": "rmc-story-203",
+   "xmltv": "RMCStory.fr"
+  },
+  {
+   "id": "lcp",
+   "name": "LCP",
+   "group": "general",
+   "site_id": "la-chaine-parlementaire-11",
+   "xmltv": "LCP.fr"
+  },
+  {
+   "id": "bfmtv",
+   "name": "BFMTV",
+   "group": "news",
+   "site_id": "bfmtv-25",
+   "xmltv": "BFMTV.fr"
+  },
+  {
+   "id": "cnews",
+   "name": "CNEWS",
+   "group": "news",
+   "site_id": "cnews-30",
+   "xmltv": "CNews.fr"
+  },
+  {
+   "id": "lci",
+   "name": "LCI",
+   "group": "news",
+   "site_id": "lci-la-chaine-info-78",
+   "xmltv": "LCI.fr"
+  },
+  {
+   "id": "franceinfo",
+   "name": "franceinfo",
+   "group": "news",
+   "site_id": "franceinfo-307",
+   "xmltv": "FranceInfo.fr"
+  },
+  {
+   "id": "lequipe",
+   "name": "L'Équipe",
+   "group": "sports",
+   "site_id": "lequipe-204",
+   "xmltv": "LEquipe.fr"
+  },
+  {
+   "id": "canalplussport",
+   "name": "Canal+ Sport",
+   "group": "sports",
+   "site_id": "canalplus-sport-37",
+   "xmltv": "CanalPlusSport.fr"
+  },
+  {
+   "id": "beinsports1",
+   "name": "beIN SPORTS 1",
+   "group": "sports",
+   "site_id": "bein-sports-1-183",
+   "xmltv": "beINSports1.qa"
+  },
+  {
+   "id": "eurosport1",
+   "name": "Eurosport 1",
+   "group": "sports",
+   "site_id": "eurosport-1-5",
+   "xmltv": "Eurosport1.fr"
+  },
+  {
+   "id": "gulli",
+   "name": "Gulli",
+   "group": "kids",
+   "site_id": "gulli-29",
+   "xmltv": "Gulli.fr"
+  },
+  {
+   "id": "canalj",
+   "name": "Canal J",
+   "group": "kids",
+   "site_id": "canal-j-40",
+   "xmltv": "CanalJ.fr"
+  },
+  {
+   "id": "disneychannel",
+   "name": "Disney Channel",
+   "group": "kids",
+   "site_id": "disney-channel-57",
+   "xmltv": "DisneyChannel.fr"
+  },
+  {
+   "id": "rmcdecouverte",
+   "name": "RMC Découverte",
+   "group": "docs",
+   "site_id": "rmc-decouverte-205",
+   "xmltv": "RMCDecouverte.fr"
+  },
+  {
+   "id": "planeteplus",
+   "name": "Planète+",
+   "group": "docs",
+   "site_id": "planeteplus-16",
+   "xmltv": "PlanetePlus.fr"
+  },
+  {
+   "id": "tf1seriesfilms",
+   "name": "TF1 Séries Films",
+   "group": "movies",
+   "site_id": "tf1-series-films-201",
+   "xmltv": "TF1SeriesFilms.fr"
+  },
+  {
+   "id": "canalpluscinema",
+   "name": "Canal+ Cinéma",
+   "group": "movies",
+   "site_id": "canalplus-cinema-35",
+   "xmltv": "CanalPlusCinema.fr"
+  }
+ ]
+}

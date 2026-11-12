@@ -1,0 +1,245 @@
+{
+ "code": "de",
+ "name": "Deutschland",
+ "nameEn": "Germany",
+ "tz": "Europe/Berlin",
+ "source": {
+  "type": "epg",
+  "site": "web.magentatv.de",
+  "lang": "de",
+  "delay": 1000
+ },
+ "channels": [
+  {
+   "id": "daserste",
+   "name": "Das Erste",
+   "group": "general",
+   "site_id": "373",
+   "xmltv": "DasErste.de"
+  },
+  {
+   "id": "zdf",
+   "name": "ZDF",
+   "group": "general",
+   "site_id": "408",
+   "xmltv": "ZDF.de"
+  },
+  {
+   "id": "rtl",
+   "name": "RTL",
+   "group": "general",
+   "site_id": "404",
+   "xmltv": "RTL.de"
+  },
+  {
+   "id": "sat1",
+   "name": "SAT.1",
+   "group": "general",
+   "site_id": "381",
+   "xmltv": "SAT1.de"
+  },
+  {
+   "id": "prosieben",
+   "name": "ProSieben",
+   "group": "general",
+   "site_id": "374",
+   "xmltv": "ProSieben.de"
+  },
+  {
+   "id": "vox",
+   "name": "VOX",
+   "group": "general",
+   "site_id": "385",
+   "xmltv": "VOX.de"
+  },
+  {
+   "id": "kabeleins",
+   "name": "Kabel Eins",
+   "group": "general",
+   "site_id": "405",
+   "xmltv": "kabeleins.de"
+  },
+  {
+   "id": "rtlzwei",
+   "name": "RTLZWEI",
+   "group": "general",
+   "site_id": "382",
+   "xmltv": "RTLZwei.de"
+  },
+  {
+   "id": "3sat",
+   "name": "3sat",
+   "group": "general",
+   "site_id": "392",
+   "xmltv": "3sat.de"
+  },
+  {
+   "id": "arte",
+   "name": "ARTE",
+   "group": "general",
+   "site_id": "394",
+   "xmltv": "arte.de"
+  },
+  {
+   "id": "zdfneo",
+   "name": "ZDFneo",
+   "group": "general",
+   "site_id": "391",
+   "xmltv": "ZDFneo.de"
+  },
+  {
+   "id": "sixx",
+   "name": "sixx",
+   "group": "general",
+   "site_id": "380",
+   "xmltv": "sixx.de"
+  },
+  {
+   "id": "ntv",
+   "name": "ntv",
+   "group": "news",
+   "site_id": "376",
+   "xmltv": "ntv.de"
+  },
+  {
+   "id": "welt",
+   "name": "WELT",
+   "group": "news",
+   "site_id": "375",
+   "xmltv": "WELT.de"
+  },
+  {
+   "id": "tagesschau24",
+   "name": "tagesschau24",
+   "group": "news",
+   "site_id": "400",
+   "xmltv": "tagesschau24.de"
+  },
+  {
+   "id": "phoenix",
+   "name": "phoenix",
+   "group": "news",
+   "site_id": "371",
+   "xmltv": "phoenix.de"
+  },
+  {
+   "id": "sport1",
+   "name": "SPORT1",
+   "group": "sports",
+   "site_id": "401",
+   "xmltv": "Sport1.de"
+  },
+  {
+   "id": "eurosport1",
+   "name": "Eurosport 1",
+   "group": "sports",
+   "site_id": "389",
+   "xmltv": "Eurosport1.fr"
+  },
+  {
+   "id": "skysportnews",
+   "name": "Sky Sport News",
+   "group": "sports",
+   "site_id": "190",
+   "xmltv": "SkySportNews.de"
+  },
+  {
+   "id": "skysportbundesliga",
+   "name": "Sky Sport Bundesliga",
+   "group": "sports",
+   "site_id": "42",
+   "xmltv": "SkySportBundesliga1.de"
+  },
+  {
+   "id": "magentasport",
+   "name": "MagentaSport",
+   "group": "sports",
+   "site_id": "5075",
+   "xmltv": "MagentaSport.de"
+  },
+  {
+   "id": "kika",
+   "name": "KiKA",
+   "group": "kids",
+   "site_id": "387",
+   "xmltv": "KiKA.de"
+  },
+  {
+   "id": "superrtl",
+   "name": "Super RTL",
+   "group": "kids",
+   "site_id": "403",
+   "xmltv": "RTLSuper.de"
+  },
+  {
+   "id": "disneychannel",
+   "name": "Disney Channel",
+   "group": "kids",
+   "site_id": "27",
+   "xmltv": "DisneyChannel.de"
+  },
+  {
+   "id": "nickjr",
+   "name": "Nick Jr.",
+   "group": "kids",
+   "site_id": "221",
+   "xmltv": "NickJr.de"
+  },
+  {
+   "id": "zdfinfo",
+   "name": "ZDFinfo",
+   "group": "docs",
+   "site_id": "378",
+   "xmltv": "ZDFinfo.de"
+  },
+  {
+   "id": "dmax",
+   "name": "DMAX",
+   "group": "docs",
+   "site_id": "429",
+   "xmltv": "DMAX.de"
+  },
+  {
+   "id": "weltdoku",
+   "name": "WELT DOKU",
+   "group": "docs",
+   "site_id": "553",
+   "xmltv": "N24Doku.de"
+  },
+  {
+   "id": "discovery",
+   "name": "Discovery Channel",
+   "group": "docs",
+   "site_id": "23",
+   "xmltv": "DiscoveryChannel.de"
+  },
+  {
+   "id": "natgeo",
+   "name": "National Geographic",
+   "group": "docs",
+   "site_id": "35",
+   "xmltv": "NationalGeographic.de"
+  },
+  {
+   "id": "tele5",
+   "name": "TELE 5",
+   "group": "movies",
+   "site_id": "48",
+   "xmltv": "TELE5.de"
+  },
+  {
+   "id": "prosiebenmaxx",
+   "name": "ProSieben MAXX",
+   "group": "movies",
+   "site_id": "396",
+   "xmltv": "ProSiebenMaxx.de"
+  },
+  {
+   "id": "skycinemapremiere",
+   "name": "Sky Cinema Premiere",
+   "group": "movies",
+   "site_id": "195",
+   "xmltv": "SkyCinemaPremieren.de"
+  }
+ ]
+}

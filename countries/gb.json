@@ -1,0 +1,231 @@
+{
+ "code": "gb",
+ "name": "United Kingdom",
+ "nameEn": "United Kingdom",
+ "tz": "Europe/London",
+ "source": {
+  "type": "epg",
+  "site": "sky.com",
+  "lang": "en",
+  "delay": 1000
+ },
+ "channels": [
+  {
+   "id": "bbcone",
+   "name": "BBC One",
+   "group": "general",
+   "site_id": "GB#3000",
+   "xmltv": "BBCOne.uk"
+  },
+  {
+   "id": "bbctwo",
+   "name": "BBC Two",
+   "group": "general",
+   "site_id": "GB#2075",
+   "xmltv": "BBCTwo.uk"
+  },
+  {
+   "id": "itv1",
+   "name": "ITV1",
+   "group": "general",
+   "site_id": "GB#1043",
+   "xmltv": "ITV1.uk"
+  },
+  {
+   "id": "channel4",
+   "name": "Channel 4",
+   "group": "general",
+   "site_id": "GB#1202",
+   "xmltv": "Channel4.uk"
+  },
+  {
+   "id": "channel5",
+   "name": "5",
+   "group": "general",
+   "site_id": "GB#4058",
+   "xmltv": "Channel5.uk"
+  },
+  {
+   "id": "bbcthree",
+   "name": "BBC Three",
+   "group": "general",
+   "site_id": "GB#2080",
+   "xmltv": "BBCThree.uk"
+  },
+  {
+   "id": "bbcfour",
+   "name": "BBC Four",
+   "group": "general",
+   "site_id": "GB#2086",
+   "xmltv": "BBCFour.uk"
+  },
+  {
+   "id": "itv2",
+   "name": "ITV2",
+   "group": "general",
+   "site_id": "GB#6532",
+   "xmltv": "ITV2.uk"
+  },
+  {
+   "id": "itv3",
+   "name": "ITV3",
+   "group": "general",
+   "site_id": "GB#6533",
+   "xmltv": "ITV3.uk"
+  },
+  {
+   "id": "e4",
+   "name": "E4",
+   "group": "general",
+   "site_id": "GB#1628",
+   "xmltv": "E4.uk"
+  },
+  {
+   "id": "more4",
+   "name": "More4",
+   "group": "general",
+   "site_id": "GB#3340",
+   "xmltv": "More4.uk"
+  },
+  {
+   "id": "dave",
+   "name": "U&Dave",
+   "group": "general",
+   "site_id": "GB#2306",
+   "xmltv": "UDave.uk"
+  },
+  {
+   "id": "skyatlantic",
+   "name": "Sky Atlantic",
+   "group": "general",
+   "site_id": "GB#1412",
+   "xmltv": "SkyAtlantic.uk"
+  },
+  {
+   "id": "bbcnews",
+   "name": "BBC News",
+   "group": "news",
+   "site_id": "GB#2085",
+   "xmltv": "BBCNews.uk"
+  },
+  {
+   "id": "skynews",
+   "name": "Sky News",
+   "group": "news",
+   "site_id": "GB#1404",
+   "xmltv": "SkyNews.uk"
+  },
+  {
+   "id": "gbnews",
+   "name": "GB News",
+   "group": "news",
+   "site_id": "GB#1196",
+   "xmltv": "GBNews.uk"
+  },
+  {
+   "id": "skysportsmainevent",
+   "name": "Sky Sports Main Event",
+   "group": "sports",
+   "site_id": "GB#1701",
+   "xmltv": "SkySportsMainEvent.uk"
+  },
+  {
+   "id": "skysportspl",
+   "name": "Sky Sports Premier League",
+   "group": "sports",
+   "site_id": "GB#1097",
+   "xmltv": "SkySportsPremierLeague.uk"
+  },
+  {
+   "id": "skysportsfootball",
+   "name": "Sky Sports Football",
+   "group": "sports",
+   "site_id": "GB#3848",
+   "xmltv": "SkySportsFootball.uk"
+  },
+  {
+   "id": "skysportsnews",
+   "name": "Sky Sports News",
+   "group": "sports",
+   "site_id": "GB#1314",
+   "xmltv": "SkySportsNews.uk"
+  },
+  {
+   "id": "tntsports1",
+   "name": "TNT Sports 1",
+   "group": "sports",
+   "site_id": "GB#1120",
+   "xmltv": "TNTSports1.uk"
+  },
+  {
+   "id": "tntsports2",
+   "name": "TNT Sports 2",
+   "group": "sports",
+   "site_id": "GB#3627",
+   "xmltv": "TNTSports2.uk"
+  },
+  {
+   "id": "cbbc",
+   "name": "CBBC",
+   "group": "kids",
+   "site_id": "GB#2078",
+   "xmltv": "CBBC.uk"
+  },
+  {
+   "id": "cbeebies",
+   "name": "CBeebies",
+   "group": "kids",
+   "site_id": "GB#2088",
+   "xmltv": "CBeebies.uk"
+  },
+  {
+   "id": "nickelodeon",
+   "name": "Nickelodeon",
+   "group": "kids",
+   "site_id": "GB#1846",
+   "xmltv": "Nickelodeon.uk"
+  },
+  {
+   "id": "discovery",
+   "name": "Discovery",
+   "group": "docs",
+   "site_id": "GB#2401",
+   "xmltv": "DiscoveryChannel.uk"
+  },
+  {
+   "id": "natgeo",
+   "name": "National Geographic",
+   "group": "docs",
+   "site_id": "GB#1806",
+   "xmltv": "NationalGeographic.uk"
+  },
+  {
+   "id": "skydocumentaries",
+   "name": "Sky Documentaries",
+   "group": "docs",
+   "site_id": "GB#1127",
+   "xmltv": "SkyDocumentaries.uk"
+  },
+  {
+   "id": "skyhistory",
+   "name": "Sky History",
+   "group": "docs",
+   "site_id": "GB#1875",
+   "xmltv": "SkyHistory.uk"
+  },
+  {
+   "id": "film4",
+   "name": "Film4",
+   "group": "movies",
+   "site_id": "GB#1627",
+   "xmltv": "Film4.uk"
+  },
+  {
+   "id": "skycinemapremiere",
+   "name": "Sky Cinema Premiere",
+   "group": "movies",
+   "site_id": "GB#4021",
+   "xmltv": "SkyCinemaPremiere.uk"
+  }
+ ]
+}

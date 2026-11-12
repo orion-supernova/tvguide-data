@@ -1,0 +1,252 @@
+{
+ "code": "us",
+ "name": "United States",
+ "nameEn": "United States",
+ "tz": "America/New_York",
+ "source": {
+  "type": "tvmaze",
+  "country": "US"
+ },
+ "minToday": 0.3,
+ "channels": [
+  {
+   "id": "abc",
+   "name": "ABC",
+   "group": "general",
+   "site_id": "ABC",
+   "xmltv": "ABC.us"
+  },
+  {
+   "id": "cbs",
+   "name": "CBS",
+   "group": "general",
+   "site_id": "CBS",
+   "xmltv": "CBS.us"
+  },
+  {
+   "id": "nbc",
+   "name": "NBC",
+   "group": "general",
+   "site_id": "NBC",
+   "xmltv": "NBC.us"
+  },
+  {
+   "id": "fox",
+   "name": "FOX",
+   "group": "general",
+   "site_id": "FOX",
+   "xmltv": "Fox.us"
+  },
+  {
+   "id": "thecw",
+   "name": "The CW",
+   "group": "general",
+   "site_id": "The CW",
+   "xmltv": "TheCW.us"
+  },
+  {
+   "id": "pbs",
+   "name": "PBS",
+   "group": "general",
+   "site_id": "PBS",
+   "xmltv": "PBS.us"
+  },
+  {
+   "id": "bravo",
+   "name": "Bravo",
+   "group": "general",
+   "site_id": "Bravo",
+   "xmltv": "Bravo.us"
+  },
+  {
+   "id": "tlc",
+   "name": "TLC",
+   "group": "general",
+   "site_id": "TLC",
+   "xmltv": "TLC.us"
+  },
+  {
+   "id": "ae",
+   "name": "A&E",
+   "group": "general",
+   "site_id": "A&E",
+   "xmltv": "AE.us"
+  },
+  {
+   "id": "amc",
+   "name": "AMC",
+   "group": "general",
+   "site_id": "AMC",
+   "xmltv": "AMC.us"
+  },
+  {
+   "id": "fx",
+   "name": "FX",
+   "group": "general",
+   "site_id": "FX",
+   "xmltv": "FX.us"
+  },
+  {
+   "id": "usanetwork",
+   "name": "USA Network",
+   "group": "general",
+   "site_id": "USA Network",
+   "xmltv": "USANetwork.us"
+  },
+  {
+   "id": "tbs",
+   "name": "TBS",
+   "group": "general",
+   "site_id": "TBS",
+   "xmltv": "TBS.us"
+  },
+  {
+   "id": "comedycentral",
+   "name": "Comedy Central",
+   "group": "general",
+   "site_id": "Comedy Central",
+   "xmltv": "ComedyCentral.us"
+  },
+  {
+   "id": "hallmark",
+   "name": "Hallmark Channel",
+   "group": "general",
+   "site_id": "Hallmark Channel",
+   "xmltv": "HallmarkChannel.us"
+  },
+  {
+   "id": "hbo",
+   "name": "HBO",
+   "group": "general",
+   "site_id": "HBO",
+   "xmltv": "HBO.us"
+  },
+  {
+   "id": "telemundo",
+   "name": "Telemundo",
+   "group": "general",
+   "site_id": "Telemundo",
+   "xmltv": "Telemundo.us"
+  },
+  {
+   "id": "univision",
+   "name": "Univision",
+   "group": "general",
+   "site_id": "Univision",
+   "xmltv": "Univision.us"
+  },
+  {
+   "id": "cnn",
+   "name": "CNN",
+   "group": "news",
+   "site_id": "CNN",
+   "xmltv": "CNN.us"
+  },
+  {
+   "id": "foxnews",
+   "name": "Fox News Channel",
+   "group": "news",
+   "site_id": "Fox News Channel",
+   "xmltv": "FoxNewsChannel.us"
+  },
+  {
+   "id": "msnow",
+   "name": "MS NOW",
+   "group": "news",
+   "site_id": "MS NOW",
+   "xmltv": "MSNOW.us",
+   "aliases": [
+    "MSNBC"
+   ]
+  },
+  {
+   "id": "espn",
+   "name": "ESPN",
+   "group": "sports",
+   "site_id": "ESPN",
+   "xmltv": "ESPN.us"
+  },
+  {
+   "id": "nflnetwork",
+   "name": "NFL Network",
+   "group": "sports",
+   "site_id": "NFL Network",
+   "xmltv": "NFLNetwork.us"
+  },
+  {
+   "id": "disneychannel",
+   "name": "Disney Channel",
+   "group": "kids",
+   "site_id": "Disney Channel",
+   "xmltv": "DisneyChannel.us"
+  },
+  {
+   "id": "disneyjunior",
+   "name": "Disney Junior",
+   "group": "kids",
+   "site_id": "Disney Junior",
+   "xmltv": "DisneyJunior.us"
+  },
+  {
+   "id": "nickelodeon",
+   "name": "Nickelodeon",
+   "group": "kids",
+   "site_id": "Nickelodeon",
+   "xmltv": "Nickelodeon.us"
+  },
+  {
+   "id": "cartoonnetwork",
+   "name": "Cartoon Network",
+   "group": "kids",
+   "site_id": "Cartoon Network",
+   "xmltv": "CartoonNetwork.us",
+   "aliases": [
+    "Adult Swim"
+   ]
+  },
+  {
+   "id": "discovery",
+   "name": "Discovery",
+   "group": "docs",
+   "site_id": "Discovery",
+   "xmltv": "DiscoveryChannel.us",
+   "aliases": [
+    "Discovery Channel"
+   ]
+  },
+  {
+   "id": "history",
+   "name": "History",
+   "group": "docs",
+   "site_id": "History",
+   "xmltv": "History.us",
+   "aliases": [
+    "HISTORY"
+   ]
+  },
+  {
+   "id": "natgeo",
+   "name": "National Geographic",
+   "group": "docs",
+   "site_id": "National Geographic",
+   "xmltv": "NationalGeographic.us",
+   "aliases": [
+    "National Geographic Channel"
+   ]
+  },
+  {
+   "id": "hgtv",
+   "name": "HGTV",
+   "group": "docs",
+   "site_id": "HGTV",
+   "xmltv": "HGTV.us"
+  },
+  {
+   "id": "foodnetwork",
+   "name": "Food Network",
+   "group": "docs",
+   "site_id": "Food Network",
+   "xmltv": "FoodNetwork.us"
+  }
+ ]
+}

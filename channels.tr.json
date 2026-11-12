@@ -1,11 +1,13 @@
 {
  "country": "tr",
+ "name": "Türkiye",
+ "nameEn": "Turkey",
  "timezone": "Europe/Istanbul",
  "channels": [
   {
    "id": "trt1",
    "name": "TRT 1",
-   "group": "ulusal",
+   "group": "general",
    "order": 0,
    "digiturk": "19",
    "tvplus": "144",
@@ -14,7 +16,7 @@
   {
    "id": "atv",
    "name": "ATV",
-   "group": "ulusal",
+   "group": "general",
    "order": 1,
    "digiturk": "300",
    "tvplus": "124",
@@ -23,7 +25,7 @@
   {
    "id": "show",
    "name": "Show TV",
-   "group": "ulusal",
+   "group": "general",
    "order": 2,
    "digiturk": "294",
    "tvplus": "130",
@@ -32,7 +34,7 @@
   {
    "id": "star",
    "name": "Star TV",
-   "group": "ulusal",
+   "group": "general",
    "order": 3,
    "digiturk": "406",
    "tvplus": "89",
@@ -41,7 +43,7 @@
   {
    "id": "kanald",
    "name": "Kanal D",
-   "group": "ulusal",
+   "group": "general",
    "order": 4,
    "digiturk": "430",
    "tvplus": "88",
@@ -50,7 +52,7 @@
   {
    "id": "now",
    "name": "NOW",
-   "group": "ulusal",
+   "group": "general",
    "order": 5,
    "digiturk": "18",
    "tvplus": "93",
@@ -59,7 +61,7 @@
   {
    "id": "tv8",
    "name": "TV8",
-   "group": "ulusal",
+   "group": "general",
    "order": 6,
    "digiturk": "428",
    "tvplus": "134",
@@ -68,7 +70,7 @@
   {
    "id": "kanal7",
    "name": "Kanal 7",
-   "group": "ulusal",
+   "group": "general",
    "order": 7,
    "digiturk": "439",
    "tvplus": "90",
@@ -77,7 +79,7 @@
   {
    "id": "beyaz",
    "name": "Beyaz TV",
-   "group": "ulusal",
+   "group": "general",
    "order": 8,
    "digiturk": "188",
    "tvplus": "135",
@@ -86,7 +88,7 @@
   {
    "id": "tv85",
    "name": "TV8,5",
-   "group": "ulusal",
+   "group": "general",
    "order": 9,
    "digiturk": "489",
    "tvplus": "188",
@@ -95,7 +97,7 @@
   {
    "id": "teve2",
    "name": "Teve2",
-   "group": "ulusal",
+   "group": "general",
    "order": 10,
    "digiturk": "256",
    "tvplus": "95",
@@ -104,7 +106,7 @@
   {
    "id": "360",
    "name": "360",
-   "group": "ulusal",
+   "group": "general",
    "order": 11,
    "digiturk": "30",
    "tvplus": "86",
@@ -113,7 +115,7 @@
   {
    "id": "trt2",
    "name": "TRT 2",
-   "group": "ulusal",
+   "group": "general",
    "order": 12,
    "digiturk": "308",
    "tvplus": "83",
@@ -122,7 +124,7 @@
   {
    "id": "trthaber",
    "name": "TRT Haber",
-   "group": "haber",
+   "group": "news",
    "order": 13,
    "digiturk": "20",
    "tvplus": "30",
@@ -131,7 +133,7 @@
   {
    "id": "haberturk",
    "name": "Habertürk",
-   "group": "haber",
+   "group": "news",
    "order": 14,
    "digiturk": "31",
    "tvplus": "87",
@@ -140,7 +142,7 @@
   {
    "id": "cnnturk",
    "name": "CNN Türk",
-   "group": "haber",
+   "group": "news",
    "order": 15,
    "digiturk": "29",
    "tvplus": "158",
@@ -149,7 +151,7 @@
   {
    "id": "ntv",
    "name": "NTV",
-   "group": "haber",
+   "group": "news",
    "order": 16,
    "digiturk": "28",
    "tvplus": "81",
@@ -158,7 +160,7 @@
   {
    "id": "halktv",
    "name": "Halk TV",
-   "group": "haber",
+   "group": "news",
    "order": 17,
    "digiturk": "298",
    "tvplus": "91",
@@ -167,7 +169,7 @@
   {
    "id": "sozcu",
    "name": "Sözcü TV",
-   "group": "haber",
+   "group": "news",
    "order": 18,
    "digiturk": "544",
    "tvplus": "4294",
@@ -176,7 +178,7 @@
   {
    "id": "tv100",
    "name": "tv100",
-   "group": "haber",
+   "group": "news",
    "order": 19,
    "digiturk": "527",
    "tvplus": "179",
@@ -185,7 +187,7 @@
   {
    "id": "ahaber",
    "name": "A Haber",
-   "group": "haber",
+   "group": "news",
    "order": 20,
    "digiturk": "301",
    "tvplus": "160",
@@ -194,7 +196,7 @@
   {
    "id": "tgrthaber",
    "name": "TGRT Haber",
-   "group": "haber",
+   "group": "news",
    "order": 21,
    "digiturk": "84",
    "tvplus": "34",
@@ -203,7 +205,7 @@
   {
    "id": "haberglobal",
    "name": "Haber Global",
-   "group": "haber",
+   "group": "news",
    "order": 22,
    "digiturk": "520",
    "tvplus": "5",
@@ -212,7 +214,7 @@
   {
    "id": "24tv",
    "name": "24",
-   "group": "haber",
+   "group": "news",
    "order": 23,
    "digiturk": "178",
    "tvplus": "32",
@@ -221,7 +223,7 @@
   {
    "id": "bloomberght",
    "name": "Bloomberg HT",
-   "group": "haber",
+   "group": "news",
    "order": 24,
    "digiturk": "24",
    "tvplus": "96",
@@ -230,7 +232,7 @@
   {
    "id": "trtspor",
    "name": "TRT Spor",
-   "group": "spor",
+   "group": "sports",
    "order": 25,
    "digiturk": "331",
    "tvplus": "31",
@@ -239,7 +241,7 @@
   {
    "id": "trtsporyildiz",
    "name": "TRT Spor Yıldız",
-   "group": "spor",
+   "group": "sports",
    "order": 26,
    "digiturk": "533",
    "tvplus": "205",
@@ -248,7 +250,7 @@
   {
    "id": "aspor",
    "name": "A Spor",
-   "group": "spor",
+   "group": "sports",
    "order": 27,
    "digiturk": "433",
    "tvplus": "3",
@@ -257,7 +259,7 @@
   {
    "id": "bein1",
    "name": "beIN Sports 1",
-   "group": "spor",
+   "group": "sports",
    "order": 28,
    "digiturk": "193",
    "tvplus": null,
@@ -267,7 +269,7 @@
   {
    "id": "bein2",
    "name": "beIN Sports 2",
-   "group": "spor",
+   "group": "sports",
    "order": 29,
    "digiturk": "310",
    "tvplus": null,
@@ -277,7 +279,7 @@
   {
    "id": "bein3",
    "name": "beIN Sports 3",
-   "group": "spor",
+   "group": "sports",
    "order": 30,
    "digiturk": "312",
    "tvplus": null,
@@ -287,7 +289,7 @@
   {
    "id": "bein4",
    "name": "beIN Sports 4",
-   "group": "spor",
+   "group": "sports",
    "order": 31,
    "digiturk": "495",
    "tvplus": null,
@@ -297,7 +299,7 @@
   {
    "id": "bein5",
    "name": "beIN Sports 5",
-   "group": "spor",
+   "group": "sports",
    "order": 32,
    "digiturk": "506",
    "tvplus": null,
@@ -307,7 +309,7 @@
   {
    "id": "beinhaber",
    "name": "beIN Sports Haber",
-   "group": "spor",
+   "group": "sports",
    "order": 33,
    "digiturk": "541",
    "tvplus": null,
@@ -317,7 +319,7 @@
   {
    "id": "trtcocuk",
    "name": "TRT Çocuk",
-   "group": "cocuk",
+   "group": "kids",
    "order": 34,
    "digiturk": "243",
    "tvplus": "99",
@@ -326,7 +328,7 @@
   {
    "id": "minikago",
    "name": "Minika Go",
-   "group": "cocuk",
+   "group": "kids",
    "order": 35,
    "digiturk": "291",
    "tvplus": "7",
@@ -335,7 +337,7 @@
   {
    "id": "cartoon",
    "name": "Cartoon Network",
-   "group": "cocuk",
+   "group": "kids",
    "order": 36,
    "digiturk": "220",
    "tvplus": "20",
@@ -344,7 +346,7 @@
   {
    "id": "disneyjr",
    "name": "Disney Junior",
-   "group": "cocuk",
+   "group": "kids",
    "order": 37,
    "digiturk": "282",
    "tvplus": "149",
@@ -353,7 +355,7 @@
   {
    "id": "trtbelgesel",
    "name": "TRT Belgesel",
-   "group": "belgesel",
+   "group": "docs",
    "order": 38,
    "digiturk": "487",
    "tvplus": "21",
@@ -362,7 +364,7 @@
   {
    "id": "natgeo",
    "name": "National Geographic",
-   "group": "belgesel",
+   "group": "docs",
    "order": 39,
    "digiturk": "214",
    "tvplus": "2799",
@@ -371,7 +373,7 @@
   {
    "id": "discovery",
    "name": "Discovery",
-   "group": "belgesel",
+   "group": "docs",
    "order": 40,
    "digiturk": "317",
    "tvplus": "8",

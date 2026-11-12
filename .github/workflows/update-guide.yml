@@ -16,23 +16,51 @@ concurrency:
   group: pages
   cancel-in-progress: false
 
+env:
+  # iptv-org/epg grabbers (community-maintained site parsers), pinned for reproducible builds
+  EPG_REPO: iptv-org/epg
+  EPG_SHA: 6a74973f1e0657184bf168e589a043ac66bac551
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: ${{ env.EPG_REPO }}
+          ref: ${{ env.EPG_SHA }}
+          path: epg
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+          cache: npm
+          cache-dependency-path: epg/package-lock.json
+      - name: Install iptv-org/epg
+        working-directory: epg
+        run: npm ci --no-audit --no-fund
+        continue-on-error: true # countries that use it are skipped; the rest still deploy
       - name: Fetch Digiturk relay (pushed from a home connection)
         run: |
           mkdir -p relay
           git fetch --depth 1 origin relay && git show FETCH_HEAD:digiturk.json > relay/digiturk.json || echo "no relay branch yet"
-      - name: Build guide data
-        run: node build.mjs
+      - name: Build Turkey
+        run: node build.mjs || { echo "::warning::Turkey build failed — leaving it out"; rm -rf out/tr; }
+      - name: Build other countries
+        env:
+          EPG_DIR: ${{ github.workspace }}/epg
+          # fill what a source no longer serves (e.g. Sky Italia has no past days) from the live site
+          PREVIOUS_URL: https://orion-supernova.github.io/tvguide-data
+        run: node build-intl.mjs
+      - name: Check output
+        run: |
+          cat out/countries.json
+          du -sh out; ls out
+          test -s out/countries.json
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
