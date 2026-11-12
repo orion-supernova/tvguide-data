@@ -243,16 +243,24 @@ async function main() {
   const all = Object.fromEntries(cfg.channels.map((c) => [c.id, { dt: [], tp: [], bein: [] }]))
   const dtLogos = {}
 
-  // 1) Digiturk — one gentle request per day
+  // 1) Digiturk — one gentle request per day. Digiturk blocks datacenter IPs (GitHub, Oracle…),
+  //    so when a live fetch fails we use the relay file pushed from a home connection (see relay()).
+  const relayDays = await readRelay()
   for (const ymd of dates) {
+    let day = null
     try {
-      const day = await digiturkDay(ymd)
+      day = await digiturkDay(ymd)
+      log(`digiturk ${ymd}: ${Object.keys(day).length} channels (live)`)
+    } catch (err) {
+      day = relayDays?.[ymd] ?? null
+      log(`digiturk ${ymd} live failed (${err.message}) → ${day ? `relay: ${Object.keys(day).length} channels` : 'no relay data'}`)
+    }
+    if (day) {
       for (const c of cfg.channels) {
         const hit = day[c.digiturk]
         if (hit) { all[c.id].dt.push(...hit.programs); dtLogos[c.id] ||= hit.logo }
       }
-      log(`digiturk ${ymd}: ${Object.keys(day).length} channels`)
-    } catch (err) { log(`digiturk ${ymd} FAILED: ${err.message}`) }
+    }
     await sleep(1500)
   }
 
@@ -319,4 +327,39 @@ async function main() {
   }
 }
 
-if (fileURLToPath(import.meta.url) === process.argv[1]) main().catch((err) => { console.error(err); process.exit(1) })
+// ---------- relay: Digiturk from a home connection ----------
+const RELAY_FILE = process.env.RELAY_FILE || join(ROOT, 'relay', 'digiturk.json')
+const RELAY_DAYS = 7 // Digiturk publishes about a week ahead
+
+async function readRelay() {
+  try {
+    const data = JSON.parse(await readFile(RELAY_FILE, 'utf8'))
+    log(`relay file from ${new Date(data.fetchedAt * 1000).toISOString()} (${Object.keys(data.days).length} days)`)
+    return data.days
+  } catch { return null }
+}
+
+/** `node build.mjs --relay`: fetch Digiturk for the next week (our channels only) into RELAY_FILE. */
+async function relay() {
+  const cfg = JSON.parse(await readFile(join(ROOT, 'channels.tr.json'), 'utf8'))
+  const wanted = new Set(cfg.channels.map((c) => c.digiturk).filter(Boolean))
+  const today = istDate(Date.now())
+  const days = {}
+  for (let i = 0; i < RELAY_DAYS; i++) {
+    const ymd = addDays(today, i)
+    try {
+      const day = await digiturkDay(ymd)
+      days[ymd] = Object.fromEntries(Object.entries(day).filter(([id]) => wanted.has(id)))
+      log(`relay ${ymd}: ${Object.keys(days[ymd]).length} channels`)
+    } catch (err) { log(`relay ${ymd} FAILED: ${err.message}`) }
+    await sleep(1500)
+  }
+  if (!Object.keys(days).length) throw new Error('relay fetched nothing')
+  await mkdir(dirname(RELAY_FILE), { recursive: true })
+  await writeFile(RELAY_FILE, JSON.stringify({ fetchedAt: Math.floor(Date.now() / 1000), days }))
+  log(`relay written: ${RELAY_FILE}`)
+}
+
+if (fileURLToPath(import.meta.url) === process.argv[1]) {
+  ;(process.argv.includes('--relay') ? relay() : main()).catch((err) => { console.error(err); process.exit(1) })
+}

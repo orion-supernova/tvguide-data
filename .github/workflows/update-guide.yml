@@ -27,6 +27,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: Fetch Digiturk relay (pushed from a home connection)
+        run: |
+          mkdir -p relay
+          git fetch --depth 1 origin relay && git show FETCH_HEAD:digiturk.json > relay/digiturk.json || echo "no relay branch yet"
       - name: Build guide data
         run: node build.mjs
       - uses: actions/configure-pages@v5
