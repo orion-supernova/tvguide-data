@@ -69,8 +69,6 @@ jobs:
           cat out/countries.json
           du -sh out; ls out
           test -s out/countries.json
-      - name: Site pages (privacy, support)
-        run: cp site/* out/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
