@@ -56,6 +56,14 @@ jobs:
           # fill what a source no longer serves (e.g. Sky Italia has no past days) from the live site
           PREVIOUS_URL: https://orion-supernova.github.io/tvguide-data
         run: node build-intl.mjs
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Logo background hints (logoBg)
+        run: |
+          pip install --quiet pillow==11.0.0
+          python3 tools/logo-tones.py out
+        continue-on-error: true # without it channels keep the cached hints from logos/tones.json
       - name: Check output
         run: |
           cat out/countries.json

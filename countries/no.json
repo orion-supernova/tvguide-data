@@ -1,0 +1,202 @@
+{
+ "code": "no",
+ "name": "Norge",
+ "nameEn": "Norway",
+ "tz": "Europe/Oslo",
+ "source": {
+  "type": "allente",
+  "site": "allente.no"
+ },
+ "channels": [
+  {
+   "id": "nrk1",
+   "name": "NRK1",
+   "group": "general",
+   "site_id": "10001",
+   "xmltv": "NRK1.no"
+  },
+  {
+   "id": "tv2direkte",
+   "name": "TV 2 Direkte",
+   "group": "general",
+   "site_id": "10004",
+   "xmltv": "TV2Direkte.no"
+  },
+  {
+   "id": "tvnorge",
+   "name": "TVNorge",
+   "group": "general",
+   "site_id": "10009",
+   "xmltv": "TVNorge.no"
+  },
+  {
+   "id": "tv3",
+   "name": "TV3",
+   "group": "general",
+   "site_id": "10013",
+   "xmltv": "TV3.no"
+  },
+  {
+   "id": "nrk2",
+   "name": "NRK2",
+   "group": "general",
+   "site_id": "10002",
+   "xmltv": "NRK2.no"
+  },
+  {
+   "id": "tv2zebra",
+   "name": "TV 2 Zebra",
+   "group": "general",
+   "site_id": "10005",
+   "xmltv": "TV2Zebra.no"
+  },
+  {
+   "id": "tv2livsstil",
+   "name": "TV 2 Livsstil",
+   "group": "general",
+   "site_id": "10007",
+   "xmltv": "TV2Livsstil.no"
+  },
+  {
+   "id": "rex",
+   "name": "REX",
+   "group": "general",
+   "site_id": "10011",
+   "xmltv": "REX.no"
+  },
+  {
+   "id": "fem",
+   "name": "FEM",
+   "group": "general",
+   "site_id": "10010",
+   "xmltv": "FEM.no"
+  },
+  {
+   "id": "vox",
+   "name": "VOX",
+   "group": "general",
+   "site_id": "10012",
+   "xmltv": "VOX.no"
+  },
+  {
+   "id": "tv3plus",
+   "name": "TV3+",
+   "group": "general",
+   "site_id": "50045",
+   "xmltv": "TV3Plus.no"
+  },
+  {
+   "id": "tv6",
+   "name": "TV6",
+   "group": "general",
+   "site_id": "10019",
+   "xmltv": "TV6.no"
+  },
+  {
+   "id": "tv2nyheter",
+   "name": "TV 2 Nyheter",
+   "group": "news",
+   "site_id": "10006",
+   "xmltv": "TV2Nyheter.no"
+  },
+  {
+   "id": "tv2sport1",
+   "name": "TV 2 Sport 1",
+   "group": "sports",
+   "site_id": "10099",
+   "xmltv": "TV2Sport1.no"
+  },
+  {
+   "id": "tv2sport2",
+   "name": "TV 2 Sport 2",
+   "group": "sports",
+   "site_id": "10021",
+   "xmltv": "TV2Sport2.no"
+  },
+  {
+   "id": "eurosportnorge",
+   "name": "Eurosport Norge",
+   "group": "sports",
+   "site_id": "10022",
+   "xmltv": "EurosportNorge.no"
+  },
+  {
+   "id": "vsport1",
+   "name": "V sport 1",
+   "group": "sports",
+   "site_id": "50047",
+   "xmltv": "VSport1.no"
+  },
+  {
+   "id": "nrksuper",
+   "name": "NRK Super / NRK3",
+   "group": "kids",
+   "site_id": "10003",
+   "xmltv": "NRKSuperNRK3.no"
+  },
+  {
+   "id": "nickelodeon",
+   "name": "Nickelodeon",
+   "group": "kids",
+   "site_id": "20062"
+  },
+  {
+   "id": "nickjr",
+   "name": "Nick Jr",
+   "group": "kids",
+   "site_id": "50018"
+  },
+  {
+   "id": "cartoonnetwork",
+   "name": "Cartoon Network",
+   "group": "kids",
+   "site_id": "50019"
+  },
+  {
+   "id": "discovery",
+   "name": "Discovery Channel",
+   "group": "docs",
+   "site_id": "10018",
+   "xmltv": "DiscoveryChannel.no"
+  },
+  {
+   "id": "natgeo",
+   "name": "National Geographic",
+   "group": "docs",
+   "site_id": "10023",
+   "xmltv": "NationalGeographic.no"
+  },
+  {
+   "id": "tlc",
+   "name": "TLC",
+   "group": "docs",
+   "site_id": "10017",
+   "xmltv": "TLC.no"
+  },
+  {
+   "id": "history",
+   "name": "HISTORY",
+   "group": "docs",
+   "site_id": "50007"
+  },
+  {
+   "id": "vfilmpremiere",
+   "name": "V film premiere",
+   "group": "movies",
+   "site_id": "50117",
+   "xmltv": "VFilmPremiere.se"
+  },
+  {
+   "id": "stars",
+   "name": "Stars",
+   "group": "movies",
+   "site_id": "10113"
+  },
+  {
+   "id": "hits",
+   "name": "Hits",
+   "group": "movies",
+   "site_id": "10112"
+  }
+ ]
+}

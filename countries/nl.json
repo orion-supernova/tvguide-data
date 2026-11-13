@@ -64,7 +64,8 @@
    "name": "Veronica",
    "group": "general",
    "site_id": "veronica",
-   "xmltv": "Veronica.nl"
+   "xmltv": "Veronica.nl",
+   "logo": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Veronica_TV_logo_2024.svg"
   },
   {
    "id": "net5",
@@ -148,7 +149,8 @@
    "name": "Disney Channel",
    "group": "kids",
    "site_id": "disneychannel",
-   "xmltv": "DisneyChannel.nl"
+   "xmltv": "DisneyChannel.nl",
+   "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg"
   },
   {
    "id": "rtltelekids",

@@ -30,6 +30,12 @@ const targets = [
   ['NL tvgids.nl', 'https://www.tvgids.nl/gids/', browser],
   ['FR programme-tv.net', 'https://www.programme-tv.net/programme/programme-tnt.html', browser],
   ['ES movistarplus', 'https://www.movistarplus.es/programacion-tv', browser],
+  // round 2: Poland, Portugal, Denmark, Norway (+ Sweden via Allente)
+  ['PL programtv.onet.pl', 'https://programtv.onet.pl/program-tv/tvp-1-321?dzien=0', browser],
+  ['PT meo.pt', `https://meogouser.apps.meo.pt/Services/GridTv/GridTv.svc/GetLiveChannelProgramsByDate?callLetter=RTP1&date=${d}&userAgent=IPTV_OFR_GTV`, { ...browser, Origin: 'https://www.meo.pt', Referer: 'https://www.meo.pt/' }],
+  ['DK allente.dk', `https://www.allente.dk/api/epg/refetch-epg-data?Start=${d}`, browser],
+  ['NO allente.no', `https://www.allente.no/api/epg/refetch-epg-data?Start=${d}`, browser],
+  ['SE allente.se', `https://www.allente.se/api/epg/refetch-epg-data?Start=${d}`, browser],
   ['IT guidatv.sky.it', `https://apid.sky.it/gtv/v1/events?from=${d}T00:00:00Z&to=${d}T23:59:00Z&pageSize=10&pageNum=0&env=DTH&channels=1`, browser],
 ]
 for (const [name, url, headers, method = 'GET'] of targets) {

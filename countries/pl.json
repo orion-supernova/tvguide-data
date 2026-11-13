@@ -1,0 +1,237 @@
+{
+ "code": "pl",
+ "name": "Polska",
+ "nameEn": "Poland",
+ "tz": "Europe/Warsaw",
+ "source": {
+  "type": "onet",
+  "delay": 1500
+ },
+ "channels": [
+  {
+   "id": "tvp1",
+   "name": "TVP 1",
+   "group": "general",
+   "site_id": "tvp-1-321",
+   "xmltv": "TVP1.pl"
+  },
+  {
+   "id": "tvp2",
+   "name": "TVP 2",
+   "group": "general",
+   "site_id": "tvp-2-323",
+   "xmltv": "TVP2.pl"
+  },
+  {
+   "id": "polsat",
+   "name": "Polsat",
+   "group": "general",
+   "site_id": "polsat-38",
+   "xmltv": "Polsat.pl"
+  },
+  {
+   "id": "tvn",
+   "name": "TVN",
+   "group": "general",
+   "site_id": "tvn-357",
+   "xmltv": "TVN.pl"
+  },
+  {
+   "id": "tv4",
+   "name": "TV4",
+   "group": "general",
+   "site_id": "tv-4-360",
+   "xmltv": "TV4.pl"
+  },
+  {
+   "id": "tvpuls",
+   "name": "TV Puls",
+   "group": "general",
+   "site_id": "tv-puls-332",
+   "xmltv": "TVPuls.pl"
+  },
+  {
+   "id": "tvn7",
+   "name": "TVN 7",
+   "group": "general",
+   "site_id": "tvn-7-326",
+   "xmltv": "TVN7.pl"
+  },
+  {
+   "id": "tv6",
+   "name": "TV6",
+   "group": "general",
+   "site_id": "tv-6-429",
+   "xmltv": "TV6.pl"
+  },
+  {
+   "id": "puls2",
+   "name": "PULS 2",
+   "group": "general",
+   "site_id": "puls-2-439",
+   "xmltv": "Puls2.pl"
+  },
+  {
+   "id": "tvpkultura",
+   "name": "TVP Kultura",
+   "group": "general",
+   "site_id": "tvp-kultura-477",
+   "xmltv": "TVPKultura.pl"
+  },
+  {
+   "id": "superpolsat",
+   "name": "Super Polsat",
+   "group": "general",
+   "site_id": "super-polsat-541",
+   "xmltv": "SuperPolsat.pl"
+  },
+  {
+   "id": "nowatv",
+   "name": "Nowa TV",
+   "group": "general",
+   "site_id": "nowa-tv-528",
+   "xmltv": "NowaTV.pl"
+  },
+  {
+   "id": "tvnstyle",
+   "name": "TVN Style",
+   "group": "general",
+   "site_id": "tvn-style-472",
+   "xmltv": "TVNStyle.pl"
+  },
+  {
+   "id": "tvpinfo",
+   "name": "TVP Info",
+   "group": "news",
+   "site_id": "tvp-info-462",
+   "xmltv": "TVPInfo.pl"
+  },
+  {
+   "id": "tvn24",
+   "name": "TVN24",
+   "group": "news",
+   "site_id": "tvn-24-347",
+   "xmltv": "TVN24.pl"
+  },
+  {
+   "id": "polsatnews",
+   "name": "Polsat News",
+   "group": "news",
+   "site_id": "polsat-news-100",
+   "xmltv": "PolsatNews.pl"
+  },
+  {
+   "id": "republika",
+   "name": "TV Republika",
+   "group": "news",
+   "site_id": "tv-republika-18",
+   "xmltv": "TVRepublika.pl"
+  },
+  {
+   "id": "tvpsport",
+   "name": "TVP Sport",
+   "group": "sports",
+   "site_id": "tvp-sport-40",
+   "xmltv": "TVPSport.pl"
+  },
+  {
+   "id": "polsatsport",
+   "name": "Polsat Sport",
+   "group": "sports",
+   "site_id": "polsat-sport-334",
+   "xmltv": "PolsatSport.pl"
+  },
+  {
+   "id": "canalplussport",
+   "name": "CANAL+ Sport",
+   "group": "sports",
+   "site_id": "canal-sport-14",
+   "xmltv": "CanalPlusSport.pl"
+  },
+  {
+   "id": "eleven1",
+   "name": "Eleven Sports 1",
+   "group": "sports",
+   "site_id": "eleven-208",
+   "xmltv": "ElevenSports1.pl"
+  },
+  {
+   "id": "tvpabc",
+   "name": "TVP ABC",
+   "group": "kids",
+   "site_id": "tvp-abc-182",
+   "xmltv": "TVPABC.pl"
+  },
+  {
+   "id": "disneychannel",
+   "name": "Disney Channel",
+   "group": "kids",
+   "site_id": "disney-channel-478",
+   "xmltv": "DisneyChannel.pl",
+   "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg"
+  },
+  {
+   "id": "nickelodeon",
+   "name": "Nickelodeon",
+   "group": "kids",
+   "site_id": "nickelodeon-42",
+   "xmltv": "Nickelodeon.pl"
+  },
+  {
+   "id": "cartoonnetwork",
+   "name": "Cartoon Network",
+   "group": "kids",
+   "site_id": "cartoon-network-273",
+   "xmltv": "CartoonNetworkCEE.uk"
+  },
+  {
+   "id": "tvphistoria",
+   "name": "TVP Historia",
+   "group": "docs",
+   "site_id": "tvp-historia-74",
+   "xmltv": "TVPHistoria.pl"
+  },
+  {
+   "id": "tvpdokument",
+   "name": "TVP Dokument",
+   "group": "docs",
+   "site_id": "tvp-dokument",
+   "xmltv": "TVPDokument.pl"
+  },
+  {
+   "id": "discovery",
+   "name": "Discovery Channel",
+   "group": "docs",
+   "site_id": "discovery-channel-202",
+   "xmltv": "DiscoveryChannel.pl"
+  },
+  {
+   "id": "natgeo",
+   "name": "National Geographic",
+   "group": "docs",
+   "site_id": "national-geographic-channel-32",
+   "xmltv": "NationalGeographic.pl"
+  },
+  {
+   "id": "polsatfilm",
+   "name": "Polsat Film",
+   "group": "movies",
+   "site_id": "polsat-film-123",
+   "xmltv": "PolsatFilm.pl"
+  },
+  {
+   "id": "canalpluspremium",
+   "name": "CANAL+ Premium",
+   "group": "movies",
+   "site_id": "canal-246",
+   "xmltv": "CanalPlusPremium.pl"
+  },
+  {
+   "id": "stopklatka",
+   "name": "Stopklatka",
+   "group": "movies",
+   "site_id": "stopklatka-tv-185",
+   "xmltv": "StopklatkaTV.pl"
+  }
+ ]
+}

@@ -1,0 +1,1927 @@
+{
+"logos/24tv.webp": {
+"sha1": "cd2d20abf63d346f4b2d1c4714e6393ddc40e908",
+"bg": "dark",
+"v": 2
+},
+"logos/360.webp": {
+"sha1": "bd7afc0e079dcb465ebfbd6eff2d2be78fdae0f5",
+"bg": "dark",
+"v": 2
+},
+"logos/ahaber.webp": {
+"sha1": "f7238ccb972fcb3821174beb12f4d8c27fc8483e",
+"bg": "dark",
+"v": 2
+},
+"logos/aspor.webp": {
+"sha1": "aaeffcda1a06ff65f6d282a27f8186935b138723",
+"bg": "dark",
+"v": 2
+},
+"logos/atv.webp": {
+"sha1": "7a281b9eaf01beda0d78eb166acae55c4a606a80",
+"bg": "dark",
+"v": 2
+},
+"logos/bein1.png": {
+"sha1": "761231bd924fdaa19cc6cdb51ff80e43c6f818c6",
+"bg": "dark",
+"v": 2
+},
+"logos/bein2.png": {
+"sha1": "d0f0fd0ad6c5f3c2c85b4c4c22897b8fa7332af5",
+"bg": "dark",
+"v": 2
+},
+"logos/bein3.png": {
+"sha1": "dd28929558e6050f221ad31d546a1f790119b536",
+"bg": "dark",
+"v": 2
+},
+"logos/bein4.png": {
+"sha1": "5050316105bde32e6955fad01d1f31033270b3d4",
+"bg": "dark",
+"v": 2
+},
+"logos/bein5.png": {
+"sha1": "fc01a49d33761aa7579656f275d845c0c0fbdb35",
+"bg": "dark",
+"v": 2
+},
+"logos/beinhaber.png": {
+"sha1": "673836c360b0c1e19bdfed384383c586359db8e2",
+"bg": "dark",
+"v": 2
+},
+"logos/beyaz.webp": {
+"sha1": "590a5aad5023e9878672044a29798d71f1829055",
+"bg": "dark",
+"v": 2
+},
+"logos/bloomberght.webp": {
+"sha1": "1667f8a021d199e2f8a24ab968a796f3f41e0963",
+"bg": "dark",
+"v": 2
+},
+"logos/cartoon.webp": {
+"sha1": "bbb8e18dd6e4312c2cac8e794e49e8fef98197a3",
+"bg": "light",
+"v": 2
+},
+"logos/cnnturk.webp": {
+"sha1": "2845e3a2b468552ec13b1add8e342bf2b5559806",
+"bg": "dark",
+"v": 2
+},
+"logos/de/3sat.png": {
+"sha1": "a550df05aaa67a55f5a39a1c896a735f8743664e",
+"bg": "dark",
+"v": 2
+},
+"logos/de/arte.png": {
+"sha1": "b5e99b42f0a486e3c1b021ddeea47fc974186ff7",
+"bg": "dark",
+"v": 2
+},
+"logos/de/daserste.png": {
+"sha1": "815a02e3006120770d56e6bd662deeaad79a60d3",
+"bg": "light",
+"v": 2
+},
+"logos/de/discovery.png": {
+"sha1": "da5c55972b1d65713abe6b642439f81d9b6b33d8",
+"bg": "light",
+"v": 2
+},
+"logos/de/disneychannel.png": {
+"sha1": "d48efb1bf79b8bb30a914a7f338e3855e79e3733",
+"bg": "light",
+"v": 2
+},
+"logos/de/dmax.png": {
+"sha1": "9be40027a6ca241779c859a412bab8c667dab08a",
+"bg": "light",
+"v": 2
+},
+"logos/de/eurosport1.png": {
+"sha1": "515319579e2600b74b10d00d97aaf26f11358208",
+"bg": "light",
+"v": 2
+},
+"logos/de/kabeleins.png": {
+"sha1": "5f806b4af77c3390706b830189fb797a369a1db1",
+"bg": "dark",
+"v": 2
+},
+"logos/de/kika.png": {
+"sha1": "c6fbe53c85aa201a6594f242ff83a0c1b78305c2",
+"bg": "dark",
+"v": 2
+},
+"logos/de/magentasport.png": {
+"sha1": "4b82927182994a1ab98c6e2a58a16498a2f6d37e",
+"bg": "dark",
+"v": 2
+},
+"logos/de/natgeo.png": {
+"sha1": "c44724739739ab6973ab1958a5c589d337fc7371",
+"bg": "light",
+"v": 2
+},
+"logos/de/nickjr.png": {
+"sha1": "f7c97766417057f1cb68c609d0b38c1e5e11ccfc",
+"bg": "dark",
+"v": 2
+},
+"logos/de/ntv.png": {
+"sha1": "36d0e1787a0d95b38437426d465eb7c789c4f436",
+"bg": "dark",
+"v": 2
+},
+"logos/de/phoenix.png": {
+"sha1": "ccfb3c3d8c9f9b336ef6a00367eea02f98b31f46",
+"bg": "light",
+"v": 2
+},
+"logos/de/prosieben.png": {
+"sha1": "75c0ca91fb9674c75e7062188bfbce878e5bfd9c",
+"bg": "dark",
+"v": 2
+},
+"logos/de/prosiebenmaxx.png": {
+"sha1": "a6b025bf21b79a911400d8814fbe1a873463fc80",
+"bg": "light",
+"v": 2
+},
+"logos/de/rtl.png": {
+"sha1": "0b53824a82406200f6f4b5494ffe3c9a3ae65c31",
+"bg": "dark",
+"v": 2
+},
+"logos/de/rtlzwei.png": {
+"sha1": "b91497b1f7d6920dd112b59052e6de467275a700",
+"bg": "dark",
+"v": 2
+},
+"logos/de/sat1.png": {
+"sha1": "de2bbd10a44c8304fd836f4dec48c1921433a5c1",
+"bg": "dark",
+"v": 2
+},
+"logos/de/sixx.png": {
+"sha1": "f4dd2543416c03f6c25b24e847e643ecdb02b5c9",
+"bg": "dark",
+"v": 2
+},
+"logos/de/skysportbundesliga.png": {
+"sha1": "3e71de8b326601c7bbe13ed68330093acb7dc9ef",
+"bg": "dark",
+"v": 2
+},
+"logos/de/skysportnews.png": {
+"sha1": "db913a274fcefa488bfe614c68fe0d97f484a8f0",
+"bg": "dark",
+"v": 2
+},
+"logos/de/sport1.png": {
+"sha1": "987f5a730474e237c5446682451fbb6f667cfb18",
+"bg": "light",
+"v": 2
+},
+"logos/de/superrtl.png": {
+"sha1": "8614871307377ce859b96319b3affaef67a95e2e",
+"bg": "dark",
+"v": 2
+},
+"logos/de/tagesschau24.png": {
+"sha1": "41bf17637f6d7024751517eed16ca8f7165ebeaa",
+"bg": "light",
+"v": 2
+},
+"logos/de/tele5.png": {
+"sha1": "718fa1a24d9d61d187012aa578beb0f8bb2eeb41",
+"bg": "dark",
+"v": 2
+},
+"logos/de/vox.png": {
+"sha1": "66c03a0b018955786ad60c8067775486b1e2f6d9",
+"bg": "light",
+"v": 2
+},
+"logos/de/welt.png": {
+"sha1": "75f35e3ac73c859a1ef4c1af9a27b06714d411de",
+"bg": "light",
+"v": 2
+},
+"logos/de/weltdoku.png": {
+"sha1": "fe85f2e9ca0fd0164a8fef760bc781bc48e5d711",
+"bg": "light",
+"v": 2
+},
+"logos/de/zdf.png": {
+"sha1": "25ea34a50124350a9b7986d1939832f7f7e0e194",
+"bg": "dark",
+"v": 2
+},
+"logos/de/zdfinfo.png": {
+"sha1": "b9cef608fb0a4f019b6774d0c3e1f973b34fbd56",
+"bg": "light",
+"v": 2
+},
+"logos/de/zdfneo.png": {
+"sha1": "6d50697f92f015baf65fc6fd6807373ed9690170",
+"bg": "light",
+"v": 2
+},
+"logos/discovery.webp": {
+"sha1": "dc7ac9faed3f0c2aa56427e998c58bcc9e856f35",
+"bg": "dark",
+"v": 2
+},
+"logos/disneyjr.webp": {
+"sha1": "0ab73bd5b04306e6d641725a681ada1f2e1f19c5",
+"bg": "dark",
+"v": 2
+},
+"logos/dk/6eren.png": {
+"sha1": "afb5008aee4381b36e2f8ddcd8842c0f35e35467",
+"bg": "dark",
+"v": 2
+},
+"logos/dk/canal9.png": {
+"sha1": "82f615605289e4276a93eea4c6006fd3db3e2371",
+"bg": "dark",
+"v": 2
+},
+"logos/dk/cartoonnetwork.png": {
+"sha1": "0407e648743f86002cebc74af4ed599c3ed83bbc",
+"bg": "light",
+"v": 2
+},
+"logos/dk/discovery.png": {
+"sha1": "da5c55972b1d65713abe6b642439f81d9b6b33d8",
+"bg": "light",
+"v": 2
+},
+"logos/dk/dk4.png": {
+"sha1": "82d8ab342b903031bb57103b4ab77c3b1c3ed73b",
+"bg": "dark",
+"v": 2
+},
+"logos/dk/dr1.png": {
+"sha1": "6cf23bd736cc5cb8f699b2506e3550f9707bec25",
+"bg": "dark",
+"v": 2
+},
+"logos/dk/dr2.png": {
+"sha1": "f442288c5041dfcd68951cf445388753d61e87a2",
+"bg": "dark",
+"v": 2
+},
+"logos/dk/drramasjang.png": {
+"sha1": "96ad911121862f1a50ba9117013ada66699ede4e",
+"bg": "dark",
+"v": 2
+},
+"logos/dk/eurosport1.png": {
+"sha1": "412f86a1e80f7aaa77b94f843d53d79eed80ef0b",
+"bg": "dark",
+"v": 2
+},
+"logos/dk/history.png": {
+"sha1": "cd40eb6ab6194ec50ab7c02cc03470925a3fe6e1",
+"bg": "dark",
+"v": 2
+},
+"logos/dk/kanal4.png": {
+"sha1": "244c19236ac415c42213268fa53f69c3a5b21649",
+"bg": "dark",
+"v": 2
+},
+"logos/dk/kanal5.png": {
+"sha1": "e841667a623ead9b8a75a5cd62c2344fa81a3bf8",
+"bg": "dark",
+"v": 2
+},
+"logos/dk/natgeo.png": {
+"sha1": "c44724739739ab6973ab1958a5c589d337fc7371",
+"bg": "light",
+"v": 2
+},
+"logos/dk/nickelodeon.png": {
+"sha1": "d09e4b422bada149725b3e511167d205af8e3cdb",
+"bg": "dark",
+"v": 2
+},
+"logos/dk/skyshowtime1.png": {
+"sha1": "8f5b4f1f64ec12eff7d17f789226165e819e36e9",
+"bg": "dark",
+"v": 2
+},
+"logos/dk/tlc.png": {
+"sha1": "0010c9280b9b97d22f3c42771a195abd8e27278c",
+"bg": "dark",
+"v": 2
+},
+"logos/dk/tv2.png": {
+"sha1": "462a7b23f583130d7024ce07ecf09a87e6265e9a",
+"bg": "dark",
+"v": 2
+},
+"logos/dk/tv2charlie.png": {
+"sha1": "4808ce4025dee223827a9fb1b431885f5e5f6601",
+"bg": "dark",
+"v": 2
+},
+"logos/dk/tv2echo.png": {
+"sha1": "cdf2fc8b92da1d4ee028a58542020bbc4c331ad0",
+"bg": "dark",
+"v": 2
+},
+"logos/dk/tv2fri.png": {
+"sha1": "bc0606d8ea233570344a70116216521ee184b099",
+"bg": "dark",
+"v": 2
+},
+"logos/dk/tv2news.png": {
+"sha1": "ec8c34694102eb20369d66432010c61f973915be",
+"bg": "dark",
+"v": 2
+},
+"logos/dk/tv2sport.png": {
+"sha1": "279f8accf765613c22ca9b352aed0afdba799fd3",
+"bg": "dark",
+"v": 2
+},
+"logos/dk/tv3.png": {
+"sha1": "518763b6cfeb8fbd463b54aee89c769b8b77cfcf",
+"bg": "dark",
+"v": 2
+},
+"logos/dk/tv3max.png": {
+"sha1": "7dfed7131e2dbc4f282983bba178947c291857a2",
+"bg": "dark",
+"v": 2
+},
+"logos/dk/tv3plus.png": {
+"sha1": "39814ff3c3deea423dfac8c2893bfb93a1027ad9",
+"bg": "dark",
+"v": 2
+},
+"logos/dk/tv3puls.png": {
+"sha1": "0af89940bb824cde180a3d38e2ddfcf503d6405d",
+"bg": "dark",
+"v": 2
+},
+"logos/dk/tv3sport.png": {
+"sha1": "4d57cad88f7db7d45eb5cbf2386f4af7630c8741",
+"bg": "dark",
+"v": 2
+},
+"logos/dk/vfilmpremiere.png": {
+"sha1": "4dfefe22ca29b94071f467bbf9eba6def5e2d840",
+"bg": "dark",
+"v": 2
+},
+"logos/es/24h.png": {
+"sha1": "7bfc96a176abd9548367cbec3806efa16002ae2d",
+"bg": "dark",
+"v": 2
+},
+"logos/es/antena3.png": {
+"sha1": "93a09c70003ac318d1f598c43f9a724f3aded57e",
+"bg": "dark",
+"v": 2
+},
+"logos/es/atreseries.png": {
+"sha1": "d9b58aca65ecbb82fa5ac482e3abcd96ff565222",
+"bg": "light",
+"v": 2
+},
+"logos/es/boing.png": {
+"sha1": "b6baf59b4831e4330f94525d1004ab4b6adedff4",
+"bg": "dark",
+"v": 2
+},
+"logos/es/clan.png": {
+"sha1": "a39cf58eb56cf5b06ef264a4920f1df025b52b1d",
+"bg": "dark",
+"v": 2
+},
+"logos/es/cuatro.png": {
+"sha1": "ad3c6b126e70df3e27257f071ba1d4dee94fe99c",
+"bg": "dark",
+"v": 2
+},
+"logos/es/disneychannel.png": {
+"sha1": "d48efb1bf79b8bb30a914a7f338e3855e79e3733",
+"bg": "light",
+"v": 2
+},
+"logos/es/divinity.png": {
+"sha1": "481033364b6ada446959f6ac670ab028bbeadb75",
+"bg": "dark",
+"v": 2
+},
+"logos/es/dmax.png": {
+"sha1": "164be17da24a9e868d41124019d84619bd9d5855",
+"bg": "dark",
+"v": 2
+},
+"logos/es/energy.png": {
+"sha1": "4ab3306bcf9f048444baa20ea38ffe1ab25fd303",
+"bg": "light",
+"v": 2
+},
+"logos/es/fdf.png": {
+"sha1": "105634b995e814fa293f06f8c54a1fd3a07f82c1",
+"bg": "dark",
+"v": 2
+},
+"logos/es/lasexta.png": {
+"sha1": "d80d636db777e482973a77da7fa042fff19f9221",
+"bg": "dark",
+"v": 2
+},
+"logos/es/mega.png": {
+"sha1": "0ba75e3e86d59f36385ff0cf24489c7e7620937e",
+"bg": "dark",
+"v": 2
+},
+"logos/es/mlaliga.png": {
+"sha1": "01222184c860f8db159f9a8fb878ef38e1af876e",
+"bg": "light",
+"v": 2
+},
+"logos/es/natgeo.png": {
+"sha1": "c44724739739ab6973ab1958a5c589d337fc7371",
+"bg": "light",
+"v": 2
+},
+"logos/es/neox.png": {
+"sha1": "835c6096e4f45a203eb22c9ec1e3290838c0c360",
+"bg": "dark",
+"v": 2
+},
+"logos/es/nova.png": {
+"sha1": "3624089aee0f918a131e6d53289f20962523f2e5",
+"bg": "dark",
+"v": 2
+},
+"logos/es/tcm.png": {
+"sha1": "506e5f1d510d4371edce5c8eedcc18fe164f7646",
+"bg": "light",
+"v": 2
+},
+"logos/es/telecinco.png": {
+"sha1": "6efa2499db0c58f26bab4c357bc5d6630f450c1e",
+"bg": "dark",
+"v": 2
+},
+"logos/es/teledeporte.png": {
+"sha1": "c9f5ce5ce3527bf0a948ced0042faa5541cad55e",
+"bg": "dark",
+"v": 2
+},
+"logos/es/trece.png": {
+"sha1": "cbdb8f971c80463712fcd6020f5870529ac710e4",
+"bg": "dark",
+"v": 2
+},
+"logos/fr/6ter.png": {
+"sha1": "25c0d998aa8bd23be59a968391f21699ee1e2869",
+"bg": "dark",
+"v": 2
+},
+"logos/fr/arte.png": {
+"sha1": "b5e99b42f0a486e3c1b021ddeea47fc974186ff7",
+"bg": "dark",
+"v": 2
+},
+"logos/fr/beinsports1.png": {
+"sha1": "9571bf0d17afd52f40f85c90ddef8eb1c3523aca",
+"bg": "dark",
+"v": 2
+},
+"logos/fr/bfmtv.png": {
+"sha1": "ff482eb9e01b5c0181f69ab9115a39f447933d01",
+"bg": "dark",
+"v": 2
+},
+"logos/fr/canalj.png": {
+"sha1": "08c811c1ccc60bcd85ad0ae13f5d50b236ec4b4a",
+"bg": "dark",
+"v": 2
+},
+"logos/fr/canalplus.png": {
+"sha1": "3f27c44f586a4e5bb53126446648971440c4089d",
+"bg": "light",
+"v": 2
+},
+"logos/fr/canalplussport.png": {
+"sha1": "ac3846354cf77a3f5b5dedd3c64254d7ba838ced",
+"bg": "dark",
+"v": 2
+},
+"logos/fr/cnews.png": {
+"sha1": "ed676d1cc163f54bb82dd34d65bae047a7d727e8",
+"bg": "dark",
+"v": 2
+},
+"logos/fr/disneychannel.png": {
+"sha1": "d48efb1bf79b8bb30a914a7f338e3855e79e3733",
+"bg": "light",
+"v": 2
+},
+"logos/fr/eurosport1.png": {
+"sha1": "515319579e2600b74b10d00d97aaf26f11358208",
+"bg": "light",
+"v": 2
+},
+"logos/fr/france2.png": {
+"sha1": "e7d8d885fc852f393b248afc802cf7291ffb50d2",
+"bg": "light",
+"v": 2
+},
+"logos/fr/france3.png": {
+"sha1": "78ebd829ab40b5daee81d521c9f3232ef40dec93",
+"bg": "light",
+"v": 2
+},
+"logos/fr/france4.png": {
+"sha1": "82aa9d4ad5c66ed9ded4de7455ce6faac115691c",
+"bg": "light",
+"v": 2
+},
+"logos/fr/france5.png": {
+"sha1": "5c091f31d6d5ea22b12c603465c6ad46563ee1fe",
+"bg": "light",
+"v": 2
+},
+"logos/fr/franceinfo.png": {
+"sha1": "2af23f57481d621c02857af5b6b9d8556e9a1afd",
+"bg": "light",
+"v": 2
+},
+"logos/fr/gulli.png": {
+"sha1": "f1c0d869fe18ed96562388de93333a69ae621f06",
+"bg": "dark",
+"v": 2
+},
+"logos/fr/lci.png": {
+"sha1": "2d32d4201a9aaa98779440e613c31a91bb62c6e3",
+"bg": "dark",
+"v": 2
+},
+"logos/fr/lcp.png": {
+"sha1": "e259c2bf11b2e886fd6e0ee1bbd3b3ca1f30e761",
+"bg": "dark",
+"v": 2
+},
+"logos/fr/lequipe.png": {
+"sha1": "56f8653d0d9d6d2e6729bc37dea1f890c89244a8",
+"bg": "dark",
+"v": 2
+},
+"logos/fr/m6.png": {
+"sha1": "77295a5257f4039a7af770ad070cb40a3627d525",
+"bg": "dark",
+"v": 2
+},
+"logos/fr/planeteplus.png": {
+"sha1": "066bea9db80a317c5d648461d5075fe9ca6e17d6",
+"bg": "dark",
+"v": 2
+},
+"logos/fr/tf1.png": {
+"sha1": "22d9ab3db381c38340765c7c47ef543240632675",
+"bg": "dark",
+"v": 2
+},
+"logos/fr/tf1seriesfilms.png": {
+"sha1": "f537eb80debd2bcfe1130b7ee8ee63c088dee948",
+"bg": "dark",
+"v": 2
+},
+"logos/fr/tfx.png": {
+"sha1": "fb61a592c408832c1bf5f7e6beabf2bdf93c2c88",
+"bg": "dark",
+"v": 2
+},
+"logos/fr/tmc.png": {
+"sha1": "b38fdf3ccca93f93e9ede3fdef4c4c77fa5aaa0f",
+"bg": "dark",
+"v": 2
+},
+"logos/fr/w9.png": {
+"sha1": "84a426fe3fa26b54e6298e3aadc8c4e93e729e24",
+"bg": "dark",
+"v": 2
+},
+"logos/gb/bbcfour.png": {
+"sha1": "c0c5049680f3aba972bd04866b838a094258ade4",
+"bg": "dark",
+"v": 2
+},
+"logos/gb/bbcnews.png": {
+"sha1": "7118f3d2748e2ca44579259e524c79b69b61c506",
+"bg": "dark",
+"v": 2
+},
+"logos/gb/bbcone.png": {
+"sha1": "0e579c356b7b5c830a9dc2e969e1ae7920de0b33",
+"bg": "dark",
+"v": 2
+},
+"logos/gb/bbcthree.png": {
+"sha1": "c71d1f5c8259bed9d0acd78d72a465397b5a43e7",
+"bg": "dark",
+"v": 2
+},
+"logos/gb/bbctwo.png": {
+"sha1": "2e6332aef09c3ddf622d94877d3242fa581bd9c8",
+"bg": "dark",
+"v": 2
+},
+"logos/gb/cbbc.png": {
+"sha1": "c39a183beaa7693f0b35625f3b8c42632c463717",
+"bg": "dark",
+"v": 2
+},
+"logos/gb/cbeebies.png": {
+"sha1": "0461efc042f7459203e32c9a1a5c64fbe382c6fe",
+"bg": "dark",
+"v": 2
+},
+"logos/gb/channel4.png": {
+"sha1": "b57a2dea27405cc31135931c35a405ab27956382",
+"bg": "dark",
+"v": 2
+},
+"logos/gb/channel5.png": {
+"sha1": "eeff2bb08ae8129dfcab3e73a7929ccb80edd474",
+"bg": "dark",
+"v": 2
+},
+"logos/gb/dave.png": {
+"sha1": "c5cdf7a2484cff5e0289b25c63f314838694c5a0",
+"bg": "dark",
+"v": 2
+},
+"logos/gb/discovery.png": {
+"sha1": "0967b2951beac6d8b71bcc6fb4cec9b77fbe95ec",
+"bg": "dark",
+"v": 2
+},
+"logos/gb/e4.png": {
+"sha1": "65f1d46923b6b9afd5a33996bdfd6cb87bf7fc00",
+"bg": "dark",
+"v": 2
+},
+"logos/gb/film4.png": {
+"sha1": "0365c9878aeca32d341e94c39f844b737a334cce",
+"bg": "dark",
+"v": 2
+},
+"logos/gb/gbnews.png": {
+"sha1": "8cd5973d9a9613d661325c02ced9cdffe87109bb",
+"bg": "dark",
+"v": 2
+},
+"logos/gb/itv1.png": {
+"sha1": "96405e57dafe785a44efaf9b58cb1f55ffe0865e",
+"bg": "dark",
+"v": 2
+},
+"logos/gb/itv2.png": {
+"sha1": "b273e318ce7f90edbf663e4fa6c314f60ed325ed",
+"bg": "dark",
+"v": 2
+},
+"logos/gb/itv3.png": {
+"sha1": "eaf697d3d1edba3a66a64e837eccf63e17b5e839",
+"bg": "dark",
+"v": 2
+},
+"logos/gb/more4.png": {
+"sha1": "f3432eeb797a1d1c76b7216a28e26b769aaa47e1",
+"bg": "dark",
+"v": 2
+},
+"logos/gb/natgeo.png": {
+"sha1": "c44724739739ab6973ab1958a5c589d337fc7371",
+"bg": "light",
+"v": 2
+},
+"logos/gb/nickelodeon.png": {
+"sha1": "748db5a9e04691b1569b2c3fe746cd90f0ecb811",
+"bg": "dark",
+"v": 2
+},
+"logos/gb/skyatlantic.png": {
+"sha1": "7453f1296717ed8909bdf08501c7968ae86a9563",
+"bg": "dark",
+"v": 2
+},
+"logos/gb/skycinemapremiere.png": {
+"sha1": "b1d44fa9235e9743a2048e890c58f5dc5ba61bce",
+"bg": "dark",
+"v": 2
+},
+"logos/gb/skydocumentaries.png": {
+"sha1": "add0f0a0c03f056186adbf2378d62cb413630a39",
+"bg": "dark",
+"v": 2
+},
+"logos/gb/skyhistory.png": {
+"sha1": "b0f8a80df15d95a60a33d4e2c9e31614fe9eb99e",
+"bg": "dark",
+"v": 2
+},
+"logos/gb/skynews.png": {
+"sha1": "226bbde604123b5afb154d43547dbd5422fad3bb",
+"bg": "light",
+"v": 2
+},
+"logos/gb/skysportsfootball.png": {
+"sha1": "86f3a7cb8ce8fd7e04225c570a894e9026a039ec",
+"bg": "dark",
+"v": 2
+},
+"logos/gb/skysportsmainevent.png": {
+"sha1": "d927ad4ab23e0c1d20fb5332d9c13d8d6fdc4a53",
+"bg": "dark",
+"v": 2
+},
+"logos/gb/skysportsnews.png": {
+"sha1": "f9f4b0e466590bd15186d4e007604daf0fe135b0",
+"bg": "dark",
+"v": 2
+},
+"logos/gb/skysportspl.png": {
+"sha1": "6de6b55e438e79d6bff6584515ed139afdb3b40f",
+"bg": "dark",
+"v": 2
+},
+"logos/gb/tntsports1.png": {
+"sha1": "fcd98b7426e57d9105bf5e57ecd3cc018dd0787d",
+"bg": "dark",
+"v": 2
+},
+"logos/gb/tntsports2.png": {
+"sha1": "c24c1062d00b9c505e7f654dfd14c0e69b5b6dec",
+"bg": "dark",
+"v": 2
+},
+"logos/haberglobal.png": {
+"sha1": "621f5c1560de61c25cfdfa75421e54108f56a6f4",
+"bg": "dark",
+"v": 2
+},
+"logos/haberturk.webp": {
+"sha1": "a02c1087ec768af271973bcff3bdc8e3543cbd9d",
+"bg": "dark",
+"v": 2
+},
+"logos/halktv.webp": {
+"sha1": "2866c04613838185070c4ba584392cb03f707ef5",
+"bg": "dark",
+"v": 2
+},
+"logos/it/20mediaset.png": {
+"sha1": "61d2654b8cbe11265cccc034406268b3011814d6",
+"bg": "light",
+"v": 2
+},
+"logos/it/canale5.png": {
+"sha1": "55bd9ced9f7b8e9f399938303c9fec506515e64c",
+"bg": "light",
+"v": 2
+},
+"logos/it/cartoonnetwork.png": {
+"sha1": "516ae71001ee131a7b0a9aebc977d5ff92e128bd",
+"bg": "light",
+"v": 2
+},
+"logos/it/cielo.png": {
+"sha1": "8ebaf6b2f4d57d86c8c4f768f332628d779f1115",
+"bg": "dark",
+"v": 2
+},
+"logos/it/focus.png": {
+"sha1": "dc6d1935eb836dcd464f3d471b9ea6ad540253fc",
+"bg": "dark",
+"v": 2
+},
+"logos/it/iris.png": {
+"sha1": "b63b403a45c7fe2840fe7a07aa61f3c0b0be133b",
+"bg": "light",
+"v": 2
+},
+"logos/it/italia1.png": {
+"sha1": "bd8030d77f0e4e3176feeba89bc8891c48d2d500",
+"bg": "dark",
+"v": 2
+},
+"logos/it/la7.png": {
+"sha1": "b5aca4455f76b231e701a4589693d1086864e2d3",
+"bg": "dark",
+"v": 2
+},
+"logos/it/rai1.png": {
+"sha1": "df84290e030e9a85d9b845ebf99ac7b371cb1c6d",
+"bg": "dark",
+"v": 2
+},
+"logos/it/rai2.png": {
+"sha1": "c943cc4801208a710da4f13b36875d19aadc9d92",
+"bg": "dark",
+"v": 2
+},
+"logos/it/rai3.png": {
+"sha1": "1b00dea4bc4bc3eea954609ea7b1050380b63748",
+"bg": "dark",
+"v": 2
+},
+"logos/it/rai4.png": {
+"sha1": "fe4b5fbac3abe9e7491c06b129203aafd6b49dd3",
+"bg": "dark",
+"v": 2
+},
+"logos/it/rai5.png": {
+"sha1": "d791481d08f7a3a6d1d16eff6dc59283ecc385a1",
+"bg": "light",
+"v": 2
+},
+"logos/it/raigulp.png": {
+"sha1": "34932aed512068bb5c6139043f3bd56f055ff607",
+"bg": "dark",
+"v": 2
+},
+"logos/it/raimovie.png": {
+"sha1": "16ce181504c2e2d48ba6f462a83254efaa9ca556",
+"bg": "light",
+"v": 2
+},
+"logos/it/rainews24.png": {
+"sha1": "20f2bfc697b706088209d05c26fc10d72201e5fb",
+"bg": "dark",
+"v": 2
+},
+"logos/it/raipremium.png": {
+"sha1": "76789c9b365b1fa1e5e3223e4c3b84d4338ea83e",
+"bg": "dark",
+"v": 2
+},
+"logos/it/raisport.png": {
+"sha1": "e9eee133b731762d38bb0b2e9f13d1fcca4166e9",
+"bg": "dark",
+"v": 2
+},
+"logos/it/raistoria.png": {
+"sha1": "ee51b9ef14dbd480a0c8cbbab7e9846ab370e6f8",
+"bg": "light",
+"v": 2
+},
+"logos/it/raiyoyo.png": {
+"sha1": "033111d56da2d27191dafab86b56ca71f2c33ede",
+"bg": "dark",
+"v": 2
+},
+"logos/it/rete4.png": {
+"sha1": "55a2930e1c724191796c35158bc0c90de8e58577",
+"bg": "dark",
+"v": 2
+},
+"logos/it/skycinemauno.png": {
+"sha1": "d62656e4ce2e0cc756124041536ca9950072eb2d",
+"bg": "dark",
+"v": 2
+},
+"logos/it/skysport24.png": {
+"sha1": "3e0e88099a2becec141774f9f8be0e5d98ca92ce",
+"bg": "dark",
+"v": 2
+},
+"logos/it/skysportcalcio.png": {
+"sha1": "24a1f5a2a0d6f44b276c87588e1c0c0b509269b7",
+"bg": "dark",
+"v": 2
+},
+"logos/it/skysportuno.png": {
+"sha1": "0751a0b00cd88b4a42047abbfbabb87f72a9fd4d",
+"bg": "dark",
+"v": 2
+},
+"logos/it/skytg24.png": {
+"sha1": "1d8e0f52530abd28dd337998250461b591ad3108",
+"bg": "dark",
+"v": 2
+},
+"logos/it/skyuno.png": {
+"sha1": "d5d244b80312b5fd345bae3b7f71a894f6047f5f",
+"bg": "dark",
+"v": 2
+},
+"logos/it/super.png": {
+"sha1": "eaf3c043773f2b3ba9169b74b9c4ee04aff52eee",
+"bg": "dark",
+"v": 2
+},
+"logos/it/tgcom24.png": {
+"sha1": "013e86d40cc25955f3b9528123a45c4c8fefb17c",
+"bg": "dark",
+"v": 2
+},
+"logos/it/tv8.png": {
+"sha1": "949b961a2649f4d7663bc29b30d1355b1bce2b49",
+"bg": "dark",
+"v": 2
+},
+"logos/kanal7.webp": {
+"sha1": "67e0821ce2aa405ff7519b061652e09d6538b343",
+"bg": "dark",
+"v": 2
+},
+"logos/kanald.webp": {
+"sha1": "83b7f51896723e93b62ae62dd9e268db1c9d0923",
+"bg": "dark",
+"v": 2
+},
+"logos/minikago.webp": {
+"sha1": "ffa98158157bb018227035f0d44bd901a16c08f7",
+"bg": "dark",
+"v": 2
+},
+"logos/natgeo.webp": {
+"sha1": "bd4c18586ddda6701835fc8f4f9b089da51a5058",
+"bg": "dark",
+"v": 2
+},
+"logos/nl/cartoonnetwork.png": {
+"sha1": "516ae71001ee131a7b0a9aebc977d5ff92e128bd",
+"bg": "light",
+"v": 2
+},
+"logos/nl/cnn.png": {
+"sha1": "8172da9ca2ac9afd09fcae2de2101a33a9497da1",
+"bg": "dark",
+"v": 2
+},
+"logos/nl/comedycentral.png": {
+"sha1": "eba98fa3985beba6e3f897b0a0d7071cc073f997",
+"bg": "light",
+"v": 2
+},
+"logos/nl/discovery.png": {
+"sha1": "da5c55972b1d65713abe6b642439f81d9b6b33d8",
+"bg": "light",
+"v": 2
+},
+"logos/nl/disneychannel.png": {
+"sha1": "d48efb1bf79b8bb30a914a7f338e3855e79e3733",
+"bg": "light",
+"v": 2
+},
+"logos/nl/espn.png": {
+"sha1": "ac6bb50a89477bd4fe75f1efbe9848be61f24c23",
+"bg": "dark",
+"v": 2
+},
+"logos/nl/espn2.png": {
+"sha1": "a941db82e4edb9bfd92b14a923e2a3f6c5b0fc16",
+"bg": "dark",
+"v": 2
+},
+"logos/nl/eurosport1.png": {
+"sha1": "515319579e2600b74b10d00d97aaf26f11358208",
+"bg": "light",
+"v": 2
+},
+"logos/nl/film1action.png": {
+"sha1": "9992cc059114d55a6d0731bc2fdf66d483cc4704",
+"bg": "light",
+"v": 2
+},
+"logos/nl/film1premiere.png": {
+"sha1": "803228632b301afcd97e57cb97f4a42d44f75841",
+"bg": "light",
+"v": 2
+},
+"logos/nl/history.png": {
+"sha1": "67368dff6b55a45b0d8cb58ae88175801466d347",
+"bg": "dark",
+"v": 2
+},
+"logos/nl/natgeo.png": {
+"sha1": "c44724739739ab6973ab1958a5c589d337fc7371",
+"bg": "light",
+"v": 2
+},
+"logos/nl/net5.jpg": {
+"sha1": "be5e7aa4ebf095a0bdd4bf48e3bc30633058e777",
+"bg": "light",
+"v": 2
+},
+"logos/nl/nickelodeon.png": {
+"sha1": "748db5a9e04691b1569b2c3fe746cd90f0ecb811",
+"bg": "dark",
+"v": 2
+},
+"logos/nl/npo1.png": {
+"sha1": "93f9fb2e6c8658e450e861c701e97061d1aa7eb8",
+"bg": "dark",
+"v": 2
+},
+"logos/nl/npo2.png": {
+"sha1": "9fa2d6a941e79574e238609b8487b1eb48a1f5f4",
+"bg": "dark",
+"v": 2
+},
+"logos/nl/npo3.png": {
+"sha1": "72dc3efd0a70e74b865785a5df43798ce2344188",
+"bg": "dark",
+"v": 2
+},
+"logos/nl/npopolitiek.png": {
+"sha1": "45b11887aaae2d8f809c09730a72ce605a768689",
+"bg": "dark",
+"v": 2
+},
+"logos/nl/rtl4.png": {
+"sha1": "363b33bf26faee12dd4813fb1a305105bf0ef37a",
+"bg": "dark",
+"v": 2
+},
+"logos/nl/rtl5.png": {
+"sha1": "310a3671ceaa48c4f50ec1f08ae5de0ef95cce59",
+"bg": "dark",
+"v": 2
+},
+"logos/nl/rtl7.png": {
+"sha1": "a9bfa9150bcf9c093e6aece2524cd0cc87cb395e",
+"bg": "light",
+"v": 2
+},
+"logos/nl/rtl8.png": {
+"sha1": "da7edf94d3d3c434dc4bd142cdb589c784f75288",
+"bg": "dark",
+"v": 2
+},
+"logos/nl/rtltelekids.png": {
+"sha1": "eecd7b6050026142906b1f048f607b73904e1f31",
+"bg": "dark",
+"v": 2
+},
+"logos/nl/sbs6.png": {
+"sha1": "44a4c5cd7c294dda3edc0f233fdad8c257ee090b",
+"bg": "dark",
+"v": 2
+},
+"logos/nl/tlc.png": {
+"sha1": "0010c9280b9b97d22f3c42771a195abd8e27278c",
+"bg": "dark",
+"v": 2
+},
+"logos/nl/veronica.png": {
+"sha1": "60d87b7592789bec28c627c9fa9c9776b7e61356",
+"bg": "dark",
+"v": 2
+},
+"logos/nl/ziggosport.png": {
+"sha1": "ee3d1bb1ecb3545a88c57a984e69296dc3d6870a",
+"bg": "light",
+"v": 2
+},
+"logos/nl/ziggosport2.png": {
+"sha1": "ee3d1bb1ecb3545a88c57a984e69296dc3d6870a",
+"bg": "light",
+"v": 2
+},
+"logos/no/cartoonnetwork.png": {
+"sha1": "0407e648743f86002cebc74af4ed599c3ed83bbc",
+"bg": "light",
+"v": 2
+},
+"logos/no/discovery.png": {
+"sha1": "da5c55972b1d65713abe6b642439f81d9b6b33d8",
+"bg": "light",
+"v": 2
+},
+"logos/no/eurosportnorge.png": {
+"sha1": "6413d9ce7d403ea756b8e7d3eb951ece89b4ce5d",
+"bg": "dark",
+"v": 2
+},
+"logos/no/fem.png": {
+"sha1": "b24b2bb03bb15ccf92fcd2c2bc683fa52f0d7b5d",
+"bg": "dark",
+"v": 2
+},
+"logos/no/history.png": {
+"sha1": "cd40eb6ab6194ec50ab7c02cc03470925a3fe6e1",
+"bg": "dark",
+"v": 2
+},
+"logos/no/hits.png": {
+"sha1": "29460111c6d203f74b96c3cc1ea6ff7c66aff984",
+"bg": "dark",
+"v": 2
+},
+"logos/no/natgeo.png": {
+"sha1": "c44724739739ab6973ab1958a5c589d337fc7371",
+"bg": "light",
+"v": 2
+},
+"logos/no/nickelodeon.png": {
+"sha1": "d09e4b422bada149725b3e511167d205af8e3cdb",
+"bg": "dark",
+"v": 2
+},
+"logos/no/nickjr.png": {
+"sha1": "7bcd9d78d60245274a9d200f29bf290b6e4f0761",
+"bg": "dark",
+"v": 2
+},
+"logos/no/nrk1.png": {
+"sha1": "a90c0d4233ab592558585fb09e2642de29db6aa0",
+"bg": "dark",
+"v": 2
+},
+"logos/no/nrk2.png": {
+"sha1": "af2a376c9dd84399f6cfcb229ddc2caecb1b3bd6",
+"bg": "dark",
+"v": 2
+},
+"logos/no/nrksuper.png": {
+"sha1": "ddfd9ba4537a796da77a42aed06ded6a0b30c4aa",
+"bg": "dark",
+"v": 2
+},
+"logos/no/rex.png": {
+"sha1": "1eee2c79131d944be5c8a66e338d9cebaa3ae5d8",
+"bg": "dark",
+"v": 2
+},
+"logos/no/stars.png": {
+"sha1": "703853347c3fd4066bcc19172dcaf65b8f97ede8",
+"bg": "dark",
+"v": 2
+},
+"logos/no/tlc.png": {
+"sha1": "0010c9280b9b97d22f3c42771a195abd8e27278c",
+"bg": "dark",
+"v": 2
+},
+"logos/no/tv2direkte.png": {
+"sha1": "72ca16b11641a0d1c1b0b1e3d2397b14a17dddaf",
+"bg": "light",
+"v": 2
+},
+"logos/no/tv2livsstil.png": {
+"sha1": "5f3c4dd29760e305a9dec9d7cfa6d565c713b364",
+"bg": "light",
+"v": 2
+},
+"logos/no/tv2nyheter.png": {
+"sha1": "1ea81dcbfa96e90ae08b839e74ec97271bdd222c",
+"bg": "dark",
+"v": 2
+},
+"logos/no/tv2sport1.png": {
+"sha1": "272b44cb6ba0c46022f5967b8c6c49b79d9392ad",
+"bg": "light",
+"v": 2
+},
+"logos/no/tv2sport2.png": {
+"sha1": "49b3921bda72b3ea82cc6198a0c410b489eb5f4d",
+"bg": "light",
+"v": 2
+},
+"logos/no/tv2zebra.png": {
+"sha1": "86bc99af4ca2efecd8f60eba0d6241a3ffd9dfa2",
+"bg": "light",
+"v": 2
+},
+"logos/no/tv3.png": {
+"sha1": "09bae06879f5bca19a0d84760618ba34441f6df4",
+"bg": "dark",
+"v": 2
+},
+"logos/no/tv3plus.png": {
+"sha1": "60334075821ce050b933d53596624cebb5c1ad71",
+"bg": "dark",
+"v": 2
+},
+"logos/no/tv6.png": {
+"sha1": "ca92e015450579b39f16d1902b63a251f36c2533",
+"bg": "dark",
+"v": 2
+},
+"logos/no/tvnorge.png": {
+"sha1": "d69f110058c7c641d46206a7f14a539dfc14823e",
+"bg": "dark",
+"v": 2
+},
+"logos/no/vfilmpremiere.png": {
+"sha1": "4dfefe22ca29b94071f467bbf9eba6def5e2d840",
+"bg": "dark",
+"v": 2
+},
+"logos/no/vox.png": {
+"sha1": "4e9157cf332f596f0dc68d458cee20ab55b3ef12",
+"bg": "dark",
+"v": 2
+},
+"logos/no/vsport1.png": {
+"sha1": "4c4ee7aff6061ad4e6658489fa4013daafd5caa4",
+"bg": "dark",
+"v": 2
+},
+"logos/now.webp": {
+"sha1": "c2243dbff7dc10fa044accdaaba68e43cd6c3f45",
+"bg": "dark",
+"v": 2
+},
+"logos/ntv.webp": {
+"sha1": "4a20ab3c69afab6973449168012946972ccbbb5f",
+"bg": "dark",
+"v": 2
+},
+"logos/pl/canalpluspremium.png": {
+"sha1": "0b7c401bfa93f83f7aef631b7891bb81b3e52e80",
+"bg": "dark",
+"v": 2
+},
+"logos/pl/canalplussport.png": {
+"sha1": "f627d39ab25de452eff7c6fde79499280e3eca69",
+"bg": "dark",
+"v": 2
+},
+"logos/pl/cartoonnetwork.png": {
+"sha1": "516ae71001ee131a7b0a9aebc977d5ff92e128bd",
+"bg": "light",
+"v": 2
+},
+"logos/pl/discovery.png": {
+"sha1": "da5c55972b1d65713abe6b642439f81d9b6b33d8",
+"bg": "light",
+"v": 2
+},
+"logos/pl/disneychannel.png": {
+"sha1": "d48efb1bf79b8bb30a914a7f338e3855e79e3733",
+"bg": "light",
+"v": 2
+},
+"logos/pl/eleven1.png": {
+"sha1": "119e0851637ed660d21d079ec2c8e18c71ecd55b",
+"bg": "dark",
+"v": 2
+},
+"logos/pl/natgeo.png": {
+"sha1": "c44724739739ab6973ab1958a5c589d337fc7371",
+"bg": "light",
+"v": 2
+},
+"logos/pl/nickelodeon.png": {
+"sha1": "748db5a9e04691b1569b2c3fe746cd90f0ecb811",
+"bg": "dark",
+"v": 2
+},
+"logos/pl/nowatv.png": {
+"sha1": "9f034c5889100059c191c7e7af811a6e18c3b11c",
+"bg": "light",
+"v": 2
+},
+"logos/pl/polsat.png": {
+"sha1": "691eeffb48f1a5312165b13978216d8acd3edb17",
+"bg": "dark",
+"v": 2
+},
+"logos/pl/polsatfilm.png": {
+"sha1": "920941d57d2a85533c048231991159973f77a5a1",
+"bg": "dark",
+"v": 2
+},
+"logos/pl/polsatnews.png": {
+"sha1": "f2d44789ce4f2e33222d0ec9a82231b75bc877c8",
+"bg": "dark",
+"v": 2
+},
+"logos/pl/polsatsport.png": {
+"sha1": "fee30fd7ae8d6f0ab5c393d1f791af06a350cad2",
+"bg": "dark",
+"v": 2
+},
+"logos/pl/puls2.png": {
+"sha1": "a0d81d8dc5982c51d38647ed2f039b0aa1919b86",
+"bg": "dark",
+"v": 2
+},
+"logos/pl/republika.png": {
+"sha1": "2bf576fe4b452d4461d4fb23aee7013bb0a3c360",
+"bg": "dark",
+"v": 2
+},
+"logos/pl/stopklatka.png": {
+"sha1": "32647e73e37403700de6eac7f19cf466aa70d7cd",
+"bg": "light",
+"v": 2
+},
+"logos/pl/superpolsat.png": {
+"sha1": "3715c52ebd00bdd42a788f2a62747870e74ddb2c",
+"bg": "dark",
+"v": 2
+},
+"logos/pl/tv4.png": {
+"sha1": "aecbe7bd97b96d74ad38fd6e408c3c620cdb26ea",
+"bg": "light",
+"v": 2
+},
+"logos/pl/tv6.png": {
+"sha1": "7592aea11801d3a0ae25cc038e4a5d7f628c2d33",
+"bg": "dark",
+"v": 2
+},
+"logos/pl/tvn.png": {
+"sha1": "d1c07eaa2f8594a0c1edd837b85f1e22cedec4f8",
+"bg": "dark",
+"v": 2
+},
+"logos/pl/tvn24.png": {
+"sha1": "dc4e17caade1918b7cf84d463712a3c557d77e7b",
+"bg": "light",
+"v": 2
+},
+"logos/pl/tvn7.png": {
+"sha1": "6609dc12fef689ab9f6336804f5bf8920c80dd11",
+"bg": "dark",
+"v": 2
+},
+"logos/pl/tvnstyle.png": {
+"sha1": "40b76dd1cdaec2a93eccdb17d2578cfb2fa768b5",
+"bg": "dark",
+"v": 2
+},
+"logos/pl/tvp1.png": {
+"sha1": "adfb74eda5a55704683800dbc313c55d0cab109d",
+"bg": "dark",
+"v": 2
+},
+"logos/pl/tvp2.png": {
+"sha1": "087805739c68aab8660c078cc4d5a095bfe48651",
+"bg": "dark",
+"v": 2
+},
+"logos/pl/tvpabc.png": {
+"sha1": "4b90b9976e3968b97dd8be8c1a463cc094b14218",
+"bg": "dark",
+"v": 2
+},
+"logos/pl/tvpdokument.png": {
+"sha1": "603a24fbffef2ce1faa9e1b251c47d8fbb9f6607",
+"bg": "light",
+"v": 2
+},
+"logos/pl/tvphistoria.png": {
+"sha1": "c0df74f49ccc3830ad9bb2bcec468822a7ded057",
+"bg": "dark",
+"v": 2
+},
+"logos/pl/tvpinfo.png": {
+"sha1": "a4e12daa6c3827fe671ea9deb51cb6c3dc9427b3",
+"bg": "light",
+"v": 2
+},
+"logos/pl/tvpkultura.png": {
+"sha1": "2c64b238a4a5123865acb6c3ac340eed686a5277",
+"bg": "dark",
+"v": 2
+},
+"logos/pl/tvpsport.png": {
+"sha1": "3bc3b54f48c3251d96a61af9df02fe64860126e4",
+"bg": "light",
+"v": 2
+},
+"logos/pl/tvpuls.png": {
+"sha1": "1abb8c7ae77397d138f236143e8721b066407bfa",
+"bg": "dark",
+"v": 2
+},
+"logos/pt/abola.png": {
+"sha1": "59aae7987056d0889773745999336291296db962",
+"bg": "dark",
+"v": 2
+},
+"logos/pt/axn.png": {
+"sha1": "971d1a6eee7a55dcc7eeed64fea1b954bccdae5c",
+"bg": "light",
+"v": 2
+},
+"logos/pt/canal11.png": {
+"sha1": "177fde47b8ab5ab470c833e5f3e873a51ff0fc25",
+"bg": "light",
+"v": 2
+},
+"logos/pt/cartoonnetwork.png": {
+"sha1": "516ae71001ee131a7b0a9aebc977d5ff92e128bd",
+"bg": "light",
+"v": 2
+},
+"logos/pt/cmtv.png": {
+"sha1": "58240cd97ea7629959b45af7956b366d9d04c0a7",
+"bg": "dark",
+"v": 2
+},
+"logos/pt/cnnportugal.png": {
+"sha1": "36df43de0ac6a781784cb6497c7f6b6570926322",
+"bg": "dark",
+"v": 2
+},
+"logos/pt/discovery.png": {
+"sha1": "da5c55972b1d65713abe6b642439f81d9b6b33d8",
+"bg": "light",
+"v": 2
+},
+"logos/pt/disneychannel.png": {
+"sha1": "d48efb1bf79b8bb30a914a7f338e3855e79e3733",
+"bg": "light",
+"v": 2
+},
+"logos/pt/historia.png": {
+"sha1": "f47c1fb36fc995e2501bbf35fae81e66bb1cb9f3",
+"bg": "dark",
+"v": 2
+},
+"logos/pt/hollywood.png": {
+"sha1": "3ea8e721cb3f4e38fcdb424b7a04d1ecb152a0d4",
+"bg": "dark",
+"v": 2
+},
+"logos/pt/natgeo.png": {
+"sha1": "c44724739739ab6973ab1958a5c589d337fc7371",
+"bg": "light",
+"v": 2
+},
+"logos/pt/odisseia.png": {
+"sha1": "dd631dbe5f7901584a45628c8e50da0b32c4a198",
+"bg": "dark",
+"v": 2
+},
+"logos/pt/panda.png": {
+"sha1": "105ae11f60dc04355c8729b9dd770158db8a2dcf",
+"bg": "dark",
+"v": 2
+},
+"logos/pt/portocanal.png": {
+"sha1": "985a546f8df7cea7674d6f268dae9ee66a1cfeea",
+"bg": "light",
+"v": 2
+},
+"logos/pt/rtp1.png": {
+"sha1": "3e979d1922f08b689b156a74a651238a9dbfaa6c",
+"bg": "dark",
+"v": 2
+},
+"logos/pt/rtp2.png": {
+"sha1": "dd9f48b26201396f64f7aeb2a2a8414ac55f9bd5",
+"bg": "dark",
+"v": 2
+},
+"logos/pt/rtp3.png": {
+"sha1": "ea7a620301ea2353ce8e4d91c67b1fb03500fd31",
+"bg": "dark",
+"v": 2
+},
+"logos/pt/rtpmemoria.png": {
+"sha1": "afa38fb9c93cc0ac269c0589beff4695806f9821",
+"bg": "dark",
+"v": 2
+},
+"logos/pt/sic.png": {
+"sha1": "349be4883f91797809d799246b4e713661dd97ca",
+"bg": "dark",
+"v": 2
+},
+"logos/pt/sick.png": {
+"sha1": "30f4f7ec2edef60addb497327842dc41d7591a25",
+"bg": "dark",
+"v": 2
+},
+"logos/pt/sicmulher.png": {
+"sha1": "fb210b83e2f34eefaf5a48fe98dfac2bf6a516fa",
+"bg": "dark",
+"v": 2
+},
+"logos/pt/sicnoticias.png": {
+"sha1": "02a4a587e0eeb6b9f72600457f3132f6ff9cd3b9",
+"bg": "dark",
+"v": 2
+},
+"logos/pt/sicnovelas.png": {
+"sha1": "2fc66c906f2864a8265b07394ba9e30bd8a427a4",
+"bg": "dark",
+"v": 2
+},
+"logos/pt/sicradical.png": {
+"sha1": "6cc7ff1a724d46439023a72f565a7f90dbe8595b",
+"bg": "dark",
+"v": 2
+},
+"logos/pt/sporttv1.png": {
+"sha1": "2f0f6556db28299368146cf47a35a2aefac222f5",
+"bg": "light",
+"v": 2
+},
+"logos/pt/sporttv2.png": {
+"sha1": "78e233c74ef77f21a582d42148edcf751bfc4026",
+"bg": "light",
+"v": 2
+},
+"logos/pt/starchannel.png": {
+"sha1": "d43cc2e26e81e0e3cd4e68c51141af14c59e3948",
+"bg": "light",
+"v": 2
+},
+"logos/pt/tvcinetop.png": {
+"sha1": "56eee200eb7841b78ac102d2a6a4da43748135bf",
+"bg": "dark",
+"v": 2
+},
+"logos/pt/tvi.png": {
+"sha1": "ab92af975baea15700f30e09adf2335985344598",
+"bg": "dark",
+"v": 2
+},
+"logos/pt/tvireality.png": {
+"sha1": "3d9ad1f93b2d46f028aee16837b57afdcc694d62",
+"bg": "dark",
+"v": 2
+},
+"logos/se/cartoonnetwork.png": {
+"sha1": "516ae71001ee131a7b0a9aebc977d5ff92e128bd",
+"bg": "light",
+"v": 2
+},
+"logos/se/discovery.png": {
+"sha1": "9f1408c4385f05b5a6b4398e14fc323c01830b0c",
+"bg": "dark",
+"v": 2
+},
+"logos/se/eurosport1.png": {
+"sha1": "515319579e2600b74b10d00d97aaf26f11358208",
+"bg": "light",
+"v": 2
+},
+"logos/se/history.png": {
+"sha1": "67368dff6b55a45b0d8cb58ae88175801466d347",
+"bg": "dark",
+"v": 2
+},
+"logos/se/kanal11.png": {
+"sha1": "f173eb36b65a801b067cff7b4369041b076a87ac",
+"bg": "dark",
+"v": 2
+},
+"logos/se/kanal5.png": {
+"sha1": "7592b168d98b0d4f45f5107f4c155a1881eefbd5",
+"bg": "dark",
+"v": 2
+},
+"logos/se/kanal9.png": {
+"sha1": "bca62240b55436fb000a760c96ad9f6bb4832a3b",
+"bg": "dark",
+"v": 2
+},
+"logos/se/kunskapskanalen.png": {
+"sha1": "46a86dcb86d443d5108f065d2aacef05b40cda99",
+"bg": "dark",
+"v": 2
+},
+"logos/se/natgeo.png": {
+"sha1": "c44724739739ab6973ab1958a5c589d337fc7371",
+"bg": "light",
+"v": 2
+},
+"logos/se/nickelodeon.png": {
+"sha1": "5674bab29d692eae5857ca6064e002de69c0147a",
+"bg": "dark",
+"v": 2
+},
+"logos/se/nickjr.png": {
+"sha1": "7bcd9d78d60245274a9d200f29bf290b6e4f0761",
+"bg": "dark",
+"v": 2
+},
+"logos/se/sjuan.png": {
+"sha1": "84dd3d162cd0064fb11a94a3de373d4d85340dce",
+"bg": "dark",
+"v": 2
+},
+"logos/se/svt1.png": {
+"sha1": "13a81a60602282f5ae37cbe7cc2a52d3a227a187",
+"bg": "dark",
+"v": 2
+},
+"logos/se/svt2.png": {
+"sha1": "3d2430096e4871f07514e1ab7f70cb29b2598b27",
+"bg": "dark",
+"v": 2
+},
+"logos/se/svt24.png": {
+"sha1": "092719f05513d5b1d04503acf4dca9fa33de11b7",
+"bg": "dark",
+"v": 2
+},
+"logos/se/svtbarn.png": {
+"sha1": "8bd9bd437ebc3a1c3d32e4464af5b7b4521ae5a2",
+"bg": "light",
+"v": 2
+},
+"logos/se/tv10.png": {
+"sha1": "04285b080dd30570460314dae306483095c3c83c",
+"bg": "dark",
+"v": 2
+},
+"logos/se/tv12.png": {
+"sha1": "c7a11a22053c19c4366d1ca0a553d133121adf36",
+"bg": "dark",
+"v": 2
+},
+"logos/se/tv3.png": {
+"sha1": "d53c7ec3a9b3aab84b37b79c98d1aca04c497330",
+"bg": "light",
+"v": 2
+},
+"logos/se/tv4.png": {
+"sha1": "4e39755c98f66d3d99932f8948d4de634d9090bb",
+"bg": "dark",
+"v": 2
+},
+"logos/se/tv4fakta.png": {
+"sha1": "34e864bd66203ff6bb946d53e740960686330da2",
+"bg": "dark",
+"v": 2
+},
+"logos/se/tv4film.png": {
+"sha1": "50eb926ceaaca0e6bc5e07baf2b9212779b88277",
+"bg": "dark",
+"v": 2
+},
+"logos/se/tv4fotboll.png": {
+"sha1": "660388aadd9d50dac213898a8300052b43e11ecf",
+"bg": "dark",
+"v": 2
+},
+"logos/se/tv4hockey.png": {
+"sha1": "677f7767d9b863e333ef0b366e3c32fd75203445",
+"bg": "dark",
+"v": 2
+},
+"logos/se/tv4sportkanalen.png": {
+"sha1": "128d3b9ec3354578599b3c9521f8b91e092db46b",
+"bg": "dark",
+"v": 2
+},
+"logos/se/tv6.png": {
+"sha1": "bbb84b197dbec6dd39b22b15cdcd79bd2106f62a",
+"bg": "light",
+"v": 2
+},
+"logos/se/tv8.png": {
+"sha1": "fcf2b29e00d4091f41adbfb0c49d2c0abaacf2a5",
+"bg": "dark",
+"v": 2
+},
+"logos/se/vfilmpremiere.png": {
+"sha1": "4dfefe22ca29b94071f467bbf9eba6def5e2d840",
+"bg": "dark",
+"v": 2
+},
+"logos/show.webp": {
+"sha1": "a2e19d3c3b9656b73c1e7879ab22984db1a47c65",
+"bg": "dark",
+"v": 2
+},
+"logos/sozcu.webp": {
+"sha1": "8ba1078b0c5754408ba34553da4264b4b0486f7c",
+"bg": "dark",
+"v": 2
+},
+"logos/star.webp": {
+"sha1": "853c984fba81190444f6def526818748d54c130a",
+"bg": "dark",
+"v": 2
+},
+"logos/teve2.png": {
+"sha1": "8f7b068aae199f9705eb9b3328f567a74784e734",
+"bg": "dark",
+"v": 2
+},
+"logos/tgrthaber.webp": {
+"sha1": "3890dbac5a1fd6735a9ff4923a79e37e66cf00ee",
+"bg": "dark",
+"v": 2
+},
+"logos/trt1.png": {
+"sha1": "589d35b48baa4295aae63c36c72b9d8175227e4b",
+"bg": "dark",
+"v": 2
+},
+"logos/trt2.webp": {
+"sha1": "3d7ce691af40a4b97c27a24e0b001218880f146a",
+"bg": "dark",
+"v": 2
+},
+"logos/trtbelgesel.png": {
+"sha1": "1290c580be91f5cd828cce82e3c0c96bb9a5f0ce",
+"bg": "dark",
+"v": 2
+},
+"logos/trtcocuk.webp": {
+"sha1": "28dcece532d9ef40f0e1258024a911fa03953ee7",
+"bg": "dark",
+"v": 2
+},
+"logos/trthaber.webp": {
+"sha1": "67e74c09b799d603cbad2976730676e42e12e7eb",
+"bg": "dark",
+"v": 2
+},
+"logos/trtspor.webp": {
+"sha1": "b68b254216504115198759339c855a3793d4c5e5",
+"bg": "dark",
+"v": 2
+},
+"logos/trtsporyildiz.webp": {
+"sha1": "1ca34c0ab6249acddfa753e250f795200a4002e6",
+"bg": "dark",
+"v": 2
+},
+"logos/tv100.webp": {
+"sha1": "f68ebeba5982604e4019e3d07f238347e7ee6a75",
+"bg": "dark",
+"v": 2
+},
+"logos/tv8.webp": {
+"sha1": "0ef1131c1ae9bae06d60e06701e31e50e4b32c56",
+"bg": "dark",
+"v": 2
+},
+"logos/tv85.webp": {
+"sha1": "9bee3786121cf4d019b9f6552739b6e40118e5cd",
+"bg": "dark",
+"v": 2
+},
+"logos/us/abc.png": {
+"sha1": "983fd006475f8c973b166094c8e8caa19eee4af0",
+"bg": "light",
+"v": 2
+},
+"logos/us/ae.png": {
+"sha1": "6585b56a175cf1266dcda825530fbb9d7aa9db87",
+"bg": "light",
+"v": 2
+},
+"logos/us/amc.png": {
+"sha1": "9a5f5d00b2753108b5f143a48b8a689855d772be",
+"bg": "light",
+"v": 2
+},
+"logos/us/bravo.png": {
+"sha1": "9e03692a03e4701b42a35b1e4e89ba291e45f3b6",
+"bg": "dark",
+"v": 2
+},
+"logos/us/cartoonnetwork.png": {
+"sha1": "516ae71001ee131a7b0a9aebc977d5ff92e128bd",
+"bg": "light",
+"v": 2
+},
+"logos/us/cbs.png": {
+"sha1": "c3dbb91ec81ec1b6d220ed0e2f620c30ce0f9c32",
+"bg": "light",
+"v": 2
+},
+"logos/us/cnn.png": {
+"sha1": "6c924d24fcd97eab186148f251689a9883a106cf",
+"bg": "dark",
+"v": 2
+},
+"logos/us/comedycentral.png": {
+"sha1": "7f9e650d9fda043ef29ac916b6df0c3e363a1fa2",
+"bg": "dark",
+"v": 2
+},
+"logos/us/discovery.png": {
+"sha1": "da5c55972b1d65713abe6b642439f81d9b6b33d8",
+"bg": "light",
+"v": 2
+},
+"logos/us/disneyjunior.png": {
+"sha1": "945c222f7f7fe7c25d912bc17aff74a397aaa69a",
+"bg": "dark",
+"v": 2
+},
+"logos/us/espn.png": {
+"sha1": "f7a7632fae71c3d429f3b19af226ab1da32fe8a5",
+"bg": "dark",
+"v": 2
+},
+"logos/us/foodnetwork.png": {
+"sha1": "f1ba4d905aac0a807471970891882bbd527997a8",
+"bg": "dark",
+"v": 2
+},
+"logos/us/fox.png": {
+"sha1": "a36802c40bded841e960195e8e31fde8f1551d66",
+"bg": "dark",
+"v": 2
+},
+"logos/us/foxnews.png": {
+"sha1": "9b4bfecc5594d8b60eece1dd2f10f492d48b1380",
+"bg": "dark",
+"v": 2
+},
+"logos/us/fx.png": {
+"sha1": "6e57a1f82c6191fc96b5dcd7e23b62cee85dc802",
+"bg": "light",
+"v": 2
+},
+"logos/us/hallmark.png": {
+"sha1": "be11187742748874e2fdce7a5c1e23d057e197a3",
+"bg": "light",
+"v": 2
+},
+"logos/us/hbo.png": {
+"sha1": "ec0267c0a1fc86c945264bf6b84cda8a9361c7a7",
+"bg": "light",
+"v": 2
+},
+"logos/us/hgtv.png": {
+"sha1": "ec9ef0a3fe2cad814ed3bc97e40f42b7144eeaf5",
+"bg": "dark",
+"v": 2
+},
+"logos/us/history.png": {
+"sha1": "67368dff6b55a45b0d8cb58ae88175801466d347",
+"bg": "dark",
+"v": 2
+},
+"logos/us/msnow.png": {
+"sha1": "085b8054144fb4f7dbd2def3b1bfde45dda28f90",
+"bg": "dark",
+"v": 2
+},
+"logos/us/natgeo.png": {
+"sha1": "c44724739739ab6973ab1958a5c589d337fc7371",
+"bg": "light",
+"v": 2
+},
+"logos/us/nbc.png": {
+"sha1": "85f1b3fe6860dd4423eee85032147528db2c7b54",
+"bg": "dark",
+"v": 2
+},
+"logos/us/nflnetwork.png": {
+"sha1": "eee90c0abcd56bd6bea29499a702a89f02cfcba9",
+"bg": "light",
+"v": 2
+},
+"logos/us/nickelodeon.png": {
+"sha1": "748db5a9e04691b1569b2c3fe746cd90f0ecb811",
+"bg": "dark",
+"v": 2
+},
+"logos/us/pbs.png": {
+"sha1": "c19594ccfb0259106e02d2e6d35836cc07615025",
+"bg": "dark",
+"v": 2
+},
+"logos/us/tbs.png": {
+"sha1": "4b1ed08127ab903dada925e5a81ac153b7badf90",
+"bg": "dark",
+"v": 2
+},
+"logos/us/telemundo.png": {
+"sha1": "438e8a8e6c513161cdf78827d7379027db4aacfb",
+"bg": "dark",
+"v": 2
+},
+"logos/us/thecw.png": {
+"sha1": "cb769a9a0a625483f5e26d309fd8d4c0fcdc53cf",
+"bg": "dark",
+"v": 2
+},
+"logos/us/tlc.png": {
+"sha1": "0010c9280b9b97d22f3c42771a195abd8e27278c",
+"bg": "dark",
+"v": 2
+},
+"logos/us/usanetwork.png": {
+"sha1": "6e31a063fd6e29cf6ebbb7d87203408ab3fb5fb1",
+"bg": "dark",
+"v": 2
+}
+}

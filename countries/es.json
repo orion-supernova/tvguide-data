@@ -132,7 +132,8 @@
    "name": "M+ LALIGA",
    "group": "sports",
    "site_id": "MLIGA",
-   "xmltv": "LaLigaTVporMovistarPlusPlus.es"
+   "xmltv": "LaLigaTVporMovistarPlusPlus.es",
+   "logo": "https://i.imgur.com/ilay5Jr.png"
   },
   {
    "id": "mligacampeones",
@@ -153,7 +154,8 @@
    "name": "DAZN LALIGA",
    "group": "sports",
    "site_id": "DAZNLI",
-   "xmltv": "DAZNLaLiga.uk"
+   "xmltv": "DAZNLaLiga.uk",
+   "logo": "https://i.postimg.cc/qRkxSrkG/768px-DAZN-La-Liga-logo-svg.png"
   },
   {
    "id": "clan",
@@ -174,7 +176,8 @@
    "name": "Disney Channel",
    "group": "kids",
    "site_id": "PLAYDC",
-   "xmltv": "DisneyChannel.es"
+   "xmltv": "DisneyChannel.es",
+   "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg"
   },
   {
    "id": "dmax",

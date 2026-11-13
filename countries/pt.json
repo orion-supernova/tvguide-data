@@ -1,0 +1,223 @@
+{
+ "code": "pt",
+ "name": "Portugal",
+ "nameEn": "Portugal",
+ "tz": "Europe/Lisbon",
+ "source": {
+  "type": "meo",
+  "delay": 500
+ },
+ "channels": [
+  {
+   "id": "rtp1",
+   "name": "RTP1",
+   "group": "general",
+   "site_id": "RTP1",
+   "xmltv": "RTP1.pt"
+  },
+  {
+   "id": "rtp2",
+   "name": "RTP2",
+   "group": "general",
+   "site_id": "RTP2",
+   "xmltv": "RTP2.pt"
+  },
+  {
+   "id": "sic",
+   "name": "SIC",
+   "group": "general",
+   "site_id": "SIC",
+   "xmltv": "SIC.pt"
+  },
+  {
+   "id": "tvi",
+   "name": "TVI",
+   "group": "general",
+   "site_id": "TVI",
+   "xmltv": "TVI.pt"
+  },
+  {
+   "id": "cmtv",
+   "name": "CMTV",
+   "group": "general",
+   "site_id": "CMTV",
+   "xmltv": "CMTV.pt"
+  },
+  {
+   "id": "portocanal",
+   "name": "Porto Canal",
+   "group": "general",
+   "site_id": "PORTO",
+   "xmltv": "PortoCanal.pt"
+  },
+  {
+   "id": "rtpmemoria",
+   "name": "RTP Memória",
+   "group": "general",
+   "site_id": "RTPM",
+   "xmltv": "RTPMemoria.pt"
+  },
+  {
+   "id": "sicmulher",
+   "name": "SIC Mulher",
+   "group": "general",
+   "site_id": "SICM",
+   "xmltv": "SICMulher.pt"
+  },
+  {
+   "id": "sicradical",
+   "name": "SIC Radical",
+   "group": "general",
+   "site_id": "SICR",
+   "xmltv": "SICRadical.pt"
+  },
+  {
+   "id": "sicnovelas",
+   "name": "SIC Novelas",
+   "group": "general",
+   "site_id": "SICNOV",
+   "xmltv": "SICNovelas.pt"
+  },
+  {
+   "id": "tvireality",
+   "name": "TVI Reality",
+   "group": "general",
+   "site_id": "TVIR",
+   "xmltv": "TVIReality.pt"
+  },
+  {
+   "id": "rtp3",
+   "name": "RTP Notícias",
+   "group": "news",
+   "site_id": "RTPN",
+   "xmltv": "RTPNoticias.pt"
+  },
+  {
+   "id": "sicnoticias",
+   "name": "SIC Notícias",
+   "group": "news",
+   "site_id": "SICN",
+   "xmltv": "SICNoticias.pt"
+  },
+  {
+   "id": "cnnportugal",
+   "name": "CNN Portugal",
+   "group": "news",
+   "site_id": "CNNPT",
+   "xmltv": "CNNPortugal.pt"
+  },
+  {
+   "id": "sporttv1",
+   "name": "Sport TV1",
+   "group": "sports",
+   "site_id": "SPT1HD",
+   "xmltv": "SportTV1.pt"
+  },
+  {
+   "id": "sporttv2",
+   "name": "Sport TV2",
+   "group": "sports",
+   "site_id": "SPT2HD",
+   "xmltv": "SportTV2.pt"
+  },
+  {
+   "id": "canal11",
+   "name": "Canal 11",
+   "group": "sports",
+   "site_id": "C11",
+   "xmltv": "Canal11.pt"
+  },
+  {
+   "id": "abola",
+   "name": "A Bola TV",
+   "group": "sports",
+   "site_id": "ABOLA",
+   "xmltv": "ABolaTV.pt"
+  },
+  {
+   "id": "panda",
+   "name": "Canal Panda",
+   "group": "kids",
+   "site_id": "PANDA",
+   "xmltv": "CanalPanda.pt"
+  },
+  {
+   "id": "sick",
+   "name": "SIC K",
+   "group": "kids",
+   "site_id": "SICK",
+   "xmltv": "SICK.pt"
+  },
+  {
+   "id": "disneychannel",
+   "name": "Disney Channel",
+   "group": "kids",
+   "site_id": "DISNY",
+   "xmltv": "DisneyChannel.pt",
+   "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg"
+  },
+  {
+   "id": "cartoonnetwork",
+   "name": "Cartoon Network",
+   "group": "kids",
+   "site_id": "CART",
+   "xmltv": "CartoonNetworkWesternEurope.uk"
+  },
+  {
+   "id": "discovery",
+   "name": "Discovery Channel",
+   "group": "docs",
+   "site_id": "DISCVHD",
+   "xmltv": "DiscoveryChannel.pt"
+  },
+  {
+   "id": "natgeo",
+   "name": "National Geographic",
+   "group": "docs",
+   "site_id": "NGHD",
+   "xmltv": "NationalGeographic.pt"
+  },
+  {
+   "id": "historia",
+   "name": "História",
+   "group": "docs",
+   "site_id": "HISTHD",
+   "xmltv": "Historia.pt"
+  },
+  {
+   "id": "odisseia",
+   "name": "Odisseia",
+   "group": "docs",
+   "site_id": "ODISSHD",
+   "xmltv": "Odisseia.pt"
+  },
+  {
+   "id": "tvcinetop",
+   "name": "TVCine Top",
+   "group": "movies",
+   "site_id": "TVCTOPH",
+   "xmltv": "TVCineTop.pt"
+  },
+  {
+   "id": "hollywood",
+   "name": "Canal Hollywood",
+   "group": "movies",
+   "site_id": "HOLHD",
+   "xmltv": "CanalHollywood.pt"
+  },
+  {
+   "id": "axn",
+   "name": "AXN",
+   "group": "movies",
+   "site_id": "AXNHD",
+   "xmltv": "AXN.pt"
+  },
+  {
+   "id": "starchannel",
+   "name": "STAR Channel",
+   "group": "movies",
+   "site_id": "STARCHA",
+   "xmltv": "StarChannel.pt"
+  }
+ ]
+}

@@ -4,202 +4,200 @@
  "nameEn": "Sweden",
  "tz": "Europe/Stockholm",
  "source": {
-  "type": "tv24",
-  "delay": 700
+  "type": "allente",
+  "site": "allente.se"
  },
  "channels": [
   {
    "id": "svt1",
    "name": "SVT1",
    "group": "general",
-   "site_id": "svt1",
+   "site_id": "20001",
    "xmltv": "SVT1.se"
   },
   {
    "id": "svt2",
    "name": "SVT2",
    "group": "general",
-   "site_id": "svt2",
+   "site_id": "20002",
    "xmltv": "SVT2.se"
   },
   {
    "id": "tv4",
    "name": "TV4",
    "group": "general",
-   "site_id": "tv4",
+   "site_id": "20004",
    "xmltv": "TV4.se"
   },
   {
    "id": "kanal5",
    "name": "Kanal 5",
    "group": "general",
-   "site_id": "kanal-5",
+   "site_id": "20005",
    "xmltv": "Kanal5.se"
   },
   {
    "id": "tv3",
    "name": "TV3",
    "group": "general",
-   "site_id": "tv3",
+   "site_id": "20003",
    "xmltv": "TV3.se"
   },
   {
    "id": "tv6",
    "name": "TV6",
    "group": "general",
-   "site_id": "tv6",
+   "site_id": "20064",
    "xmltv": "TV6.se"
   },
   {
    "id": "sjuan",
    "name": "Sjuan",
    "group": "general",
-   "site_id": "sjuan",
+   "site_id": "20007",
    "xmltv": "Sjuan.se"
   },
   {
    "id": "tv8",
    "name": "TV8",
    "group": "general",
-   "site_id": "tv8",
+   "site_id": "20008",
    "xmltv": "TV8.se"
   },
   {
    "id": "kanal9",
    "name": "Kanal 9",
    "group": "general",
-   "site_id": "kanal-9",
+   "site_id": "20009",
    "xmltv": "Kanal9.se"
   },
   {
    "id": "tv10",
    "name": "TV10",
    "group": "general",
-   "site_id": "tv10",
+   "site_id": "20060",
    "xmltv": "TV10.se"
   },
   {
    "id": "tv12",
    "name": "TV12",
    "group": "general",
-   "site_id": "tv12",
+   "site_id": "20012",
    "xmltv": "TV12.se"
   },
   {
    "id": "kanal11",
    "name": "Kanal 11",
    "group": "general",
-   "site_id": "kanal-11",
+   "site_id": "20011",
    "xmltv": "Kanal11.se"
   },
   {
    "id": "svt24",
    "name": "SVT24",
    "group": "news",
-   "site_id": "svt24",
+   "site_id": "20114",
    "xmltv": "SVT24.se"
   },
   {
    "id": "tv4sportkanalen",
    "name": "TV4 Sportkanalen",
    "group": "sports",
-   "site_id": "tv4-sportkanalen"
+   "site_id": "20083"
   },
   {
    "id": "tv4fotboll",
    "name": "TV4 Fotboll",
    "group": "sports",
-   "site_id": "tv4-fotboll"
+   "site_id": "50060"
   },
   {
    "id": "eurosport1",
    "name": "Eurosport 1",
    "group": "sports",
-   "site_id": "eurosport-1",
+   "site_id": "20061",
    "xmltv": "Eurosport1.fr"
   },
   {
-   "id": "vsportextra",
-   "name": "V Sport Extra",
+   "id": "tv4hockey",
+   "name": "TV4 Hockey",
    "group": "sports",
-   "site_id": "v-sport-extra",
-   "xmltv": "VSportExtra.se"
+   "site_id": "50053",
+   "xmltv": "TV4Hockey.se"
   },
   {
    "id": "svtbarn",
    "name": "SVT Barn",
    "group": "kids",
-   "site_id": "svt-barn",
+   "site_id": "20010",
    "xmltv": "SVTBarn.se"
   },
   {
    "id": "nickelodeon",
    "name": "Nickelodeon",
    "group": "kids",
-   "site_id": "nickelodeon",
+   "site_id": "20062",
    "xmltv": "Nickelodeon.se"
   },
   {
-   "id": "disneychannel",
-   "name": "Disney Channel",
+   "id": "nickjr",
+   "name": "Nick Jr",
    "group": "kids",
-   "site_id": "disney-channel",
-   "xmltv": "DisneyChannelScandinavia.uk"
+   "site_id": "50018"
   },
   {
    "id": "cartoonnetwork",
    "name": "Cartoon Network",
    "group": "kids",
-   "site_id": "cartoon-network",
-   "xmltv": "CartoonNetworkWesternEurope.uk"
+   "site_id": "50019"
   },
   {
    "id": "kunskapskanalen",
    "name": "Kunskapskanalen",
    "group": "docs",
-   "site_id": "kunskapskanalen",
+   "site_id": "20013",
    "xmltv": "Kunskapskanalen.se"
   },
   {
    "id": "tv4fakta",
    "name": "TV4 Fakta",
    "group": "docs",
-   "site_id": "tv4-fakta",
+   "site_id": "20017",
    "xmltv": "TV4Fakta.se"
   },
   {
    "id": "discovery",
    "name": "Discovery Channel",
    "group": "docs",
-   "site_id": "discovery-channel",
+   "site_id": "20015",
    "xmltv": "DiscoveryChannel.se"
   },
   {
    "id": "natgeo",
    "name": "National Geographic",
    "group": "docs",
-   "site_id": "national-geographic",
+   "site_id": "50054",
    "xmltv": "NationalGeographic.se"
   },
   {
    "id": "history",
    "name": "History",
    "group": "docs",
-   "site_id": "history",
+   "site_id": "50092",
    "xmltv": "History.se"
   },
   {
    "id": "tv4film",
    "name": "TV4 Film",
    "group": "movies",
-   "site_id": "tv4-film",
+   "site_id": "20023",
    "xmltv": "TV4Film.se"
   },
   {
    "id": "vfilmpremiere",
    "name": "V Film Premiere",
    "group": "movies",
-   "site_id": "v-film-premiere-hd",
+   "site_id": "50106",
    "xmltv": "VFilmPremiere.se"
   }
  ]

@@ -1,0 +1,204 @@
+{
+ "code": "dk",
+ "name": "Danmark",
+ "nameEn": "Denmark",
+ "tz": "Europe/Copenhagen",
+ "source": {
+  "type": "allente",
+  "site": "allente.dk"
+ },
+ "channels": [
+  {
+   "id": "dr1",
+   "name": "DR1",
+   "group": "general",
+   "site_id": "30001",
+   "xmltv": "DR1.dk"
+  },
+  {
+   "id": "tv2",
+   "name": "TV 2",
+   "group": "general",
+   "site_id": "30003",
+   "xmltv": "TV2.dk"
+  },
+  {
+   "id": "tv3",
+   "name": "TV3",
+   "group": "general",
+   "site_id": "30007",
+   "xmltv": "TV3.dk"
+  },
+  {
+   "id": "dr2",
+   "name": "DR2",
+   "group": "general",
+   "site_id": "30002",
+   "xmltv": "DR2.dk"
+  },
+  {
+   "id": "kanal4",
+   "name": "Kanal 4",
+   "group": "general",
+   "site_id": "30004",
+   "xmltv": "Kanal4.dk"
+  },
+  {
+   "id": "kanal5",
+   "name": "Kanal 5",
+   "group": "general",
+   "site_id": "30005",
+   "xmltv": "Kanal5.dk"
+  },
+  {
+   "id": "tv2charlie",
+   "name": "TV 2 Charlie",
+   "group": "general",
+   "site_id": "30013",
+   "xmltv": "TV2Charlie.dk"
+  },
+  {
+   "id": "tv2fri",
+   "name": "TV 2 Fri",
+   "group": "general",
+   "site_id": "30014",
+   "xmltv": "TV2Fri.dk"
+  },
+  {
+   "id": "tv2echo",
+   "name": "TV 2 Echo",
+   "group": "general",
+   "site_id": "30019",
+   "xmltv": "TV2Echo.dk"
+  },
+  {
+   "id": "6eren",
+   "name": "6'eren",
+   "group": "general",
+   "site_id": "30006",
+   "xmltv": "6eren.dk"
+  },
+  {
+   "id": "tv3plus",
+   "name": "TV3+",
+   "group": "general",
+   "site_id": "30032",
+   "xmltv": "TV3Plus.dk"
+  },
+  {
+   "id": "tv3puls",
+   "name": "TV3 Puls",
+   "group": "general",
+   "site_id": "30008",
+   "xmltv": "TV3Puls.dk"
+  },
+  {
+   "id": "canal9",
+   "name": "Canal 9",
+   "group": "general",
+   "site_id": "30009",
+   "xmltv": "Canal9.dk"
+  },
+  {
+   "id": "dk4",
+   "name": "dk4",
+   "group": "general",
+   "site_id": "30015",
+   "xmltv": "dk4.dk"
+  },
+  {
+   "id": "tv2news",
+   "name": "TV 2 News",
+   "group": "news",
+   "site_id": "30012",
+   "xmltv": "TV2News.dk"
+  },
+  {
+   "id": "tv2sport",
+   "name": "TV 2 Sport",
+   "group": "sports",
+   "site_id": "30011",
+   "xmltv": "TV2Sport.dk"
+  },
+  {
+   "id": "tv3sport",
+   "name": "TV3 Sport",
+   "group": "sports",
+   "site_id": "30027",
+   "xmltv": "TV3Sport.dk"
+  },
+  {
+   "id": "tv3max",
+   "name": "TV3 MAX",
+   "group": "sports",
+   "site_id": "30050",
+   "xmltv": "TV3Max.dk"
+  },
+  {
+   "id": "eurosport1",
+   "name": "Eurosport 1",
+   "group": "sports",
+   "site_id": "50022",
+   "xmltv": "Eurosport1.dk"
+  },
+  {
+   "id": "drramasjang",
+   "name": "DR Ramasjang",
+   "group": "kids",
+   "site_id": "30021",
+   "xmltv": "DRRamasjang.dk"
+  },
+  {
+   "id": "nickelodeon",
+   "name": "Nickelodeon",
+   "group": "kids",
+   "site_id": "20062"
+  },
+  {
+   "id": "cartoonnetwork",
+   "name": "Cartoon Network",
+   "group": "kids",
+   "site_id": "50019"
+  },
+  {
+   "id": "discovery",
+   "name": "Discovery Channel",
+   "group": "docs",
+   "site_id": "30018",
+   "xmltv": "DiscoveryChannel.dk"
+  },
+  {
+   "id": "natgeo",
+   "name": "National Geographic",
+   "group": "docs",
+   "site_id": "30047",
+   "xmltv": "NationalGeographic.dk"
+  },
+  {
+   "id": "history",
+   "name": "HISTORY",
+   "group": "docs",
+   "site_id": "50007"
+  },
+  {
+   "id": "tlc",
+   "name": "TLC",
+   "group": "docs",
+   "site_id": "30017",
+   "xmltv": "TLC.dk"
+  },
+  {
+   "id": "vfilmpremiere",
+   "name": "V film premiere",
+   "group": "movies",
+   "site_id": "50106",
+   "xmltv": "VFilmPremiere.se"
+  },
+  {
+   "id": "skyshowtime1",
+   "name": "SkyShowtime 1",
+   "group": "movies",
+   "site_id": "50133"
+  }
+ ]
+}

@@ -148,7 +148,8 @@
    "name": "Sky Sport Bundesliga",
    "group": "sports",
    "site_id": "42",
-   "xmltv": "SkySportBundesliga1.de"
+   "xmltv": "SkySportBundesliga1.de",
+   "logo": "https://upload.wikimedia.org/wikipedia/de/c/ca/Sky_Sport_Bundesliga_2020.svg"
   },
   {
    "id": "magentasport",
@@ -176,7 +177,8 @@
    "name": "Disney Channel",
    "group": "kids",
    "site_id": "27",
-   "xmltv": "DisneyChannel.de"
+   "xmltv": "DisneyChannel.de",
+   "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg"
   },
   {
    "id": "nickjr",
@@ -239,7 +241,8 @@
    "name": "Sky Cinema Premiere",
    "group": "movies",
    "site_id": "195",
-   "xmltv": "SkyCinemaPremieren.de"
+   "xmltv": "SkyCinemaPremieren.de",
+   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Sky_Cinema_Premieren_DE_Logo_2020.svg/500px-Sky_Cinema_Premieren_DE_Logo_2020.svg.png"
   }
  ]
 }

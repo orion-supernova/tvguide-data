@@ -9,6 +9,7 @@
 import { readFile, writeFile, mkdir, cp, access } from 'node:fs/promises'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { logoBg } from './build-intl.mjs'
 
 const ROOT = dirname(fileURLToPath(import.meta.url))
 const OUT = process.env.OUT_DIR || join(ROOT, 'out')
@@ -309,7 +310,8 @@ async function main() {
   const channels = []
   for (const c of cfg.channels) {
     const logo = await downloadLogo(c, dtLogos[c.id])
-    channels.push({ id: c.id, name: c.name, group: c.group, ...(logo && { logo }) })
+    const bg = await logoBg(logo)
+    channels.push({ id: c.id, name: c.name, group: c.group, ...(logo && { logo }), ...(bg && { logoBg: bg }) })
   }
   await cp(join(ROOT, 'logos'), join(OUT, 'logos'), { recursive: true }).catch(() => {})
   const updatedAt = Math.floor(Date.now() / 1000)

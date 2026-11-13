@@ -99,7 +99,8 @@
    "name": "RMC Story",
    "group": "general",
    "site_id": "rmc-story-203",
-   "xmltv": "RMCStory.fr"
+   "xmltv": "RMCStory.fr",
+   "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/4/43/Logo_RMC_Story_2025.png/500px-Logo_RMC_Story_2025.png"
   },
   {
    "id": "lcp",
@@ -134,7 +135,8 @@
    "name": "franceinfo",
    "group": "news",
    "site_id": "franceinfo-307",
-   "xmltv": "FranceInfo.fr"
+   "xmltv": "FranceInfo.fr",
+   "logo": "https://i.imgur.com/eITXz6A.png"
   },
   {
    "id": "lequipe",
@@ -183,14 +185,16 @@
    "name": "Disney Channel",
    "group": "kids",
    "site_id": "disney-channel-57",
-   "xmltv": "DisneyChannel.fr"
+   "xmltv": "DisneyChannel.fr",
+   "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg"
   },
   {
    "id": "rmcdecouverte",
    "name": "RMC Découverte",
    "group": "docs",
    "site_id": "rmc-decouverte-205",
-   "xmltv": "RMCDecouverte.fr"
+   "xmltv": "RMCDecouverte.fr",
+   "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/b/b3/RMC_D%C3%A9couverte_logo_2017.svg/500px-RMC_D%C3%A9couverte_logo_2017.svg.png"
   },
   {
    "id": "planeteplus",

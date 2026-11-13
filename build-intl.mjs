@@ -8,7 +8,10 @@
 // Sources (countries/<cc>.json → "source.type"):
 //   epg     iptv-org/epg grabber (community-maintained parsers) run on our curated channel list.
 //           Needs EPG_DIR = a checkout of github.com/iptv-org/epg with `npm ci` done.
-//   tv24    tv24.se channel pages (one request per channel per day).
+//   tv24    tv24.se channel pages (one request per channel per day; former Sweden source, kept as a fallback).
+//   allente Allente EPG (allente.dk/.no/.se): one request per day for every channel.
+//   meo     MEO Portugal: one request per channel per day.
+//   onet    programtv.onet.pl (Poland): one page per channel per day.
 //   movistar  Movistar Plus+ OTT EPG JSON (one request per channel per day).
 //   skyit   Sky Italia guide API (one request per channel per day; it has no past days).
 //   tvmaze  TVmaze schedule API (one request per day, network = channel; series/shows only).
@@ -23,6 +26,7 @@
 
 import { readFile, writeFile, mkdir, cp, rm, readdir, access, mkdtemp } from 'node:fs/promises'
 import { spawn } from 'node:child_process'
+import { createHash } from 'node:crypto'
 import { tmpdir } from 'node:os'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
@@ -33,7 +37,7 @@ const EPG_DIR = process.env.EPG_DIR || join(ROOT, 'epg')
 const DAYS_AHEAD = 3 // today + 2
 const KEEP_PAST_DAYS = 1 // yesterday
 const MAX_DESC = 400 // keep day files small
-const ORDER = ['tr', 'gb', 'de', 'fr', 'es', 'it', 'nl', 'se', 'us']
+const ORDER = ['tr', 'gb', 'de', 'fr', 'es', 'it', 'nl', 'pt', 'pl', 'se', 'dk', 'no', 'us']
 const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0 Safari/537.36'
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
@@ -233,6 +237,15 @@ async function srcTv24(cfg, dates, log) {
 // ---------- source: Movistar Plus+ ----------
 async function srcMovistar(cfg, dates, log) {
   const out = {}
+  try { // channel logos (only used for channels without a logo file yet)
+    const list = await (await get('https://ottcache.dof6.com/movistarplus/webplayer/OTT/contents/channels?mdrm=true&tlsstream=true&demarcation=18&version=8', {}, 1)).json()
+    cfg._logos = {}
+    for (const c of cfg.channels) {
+      const m = list.find((x) => x.CodCadenaTv === c.site_id)
+      const url = m && (m.Logo || m.Logos?.[0]?.uri)
+      if (url) cfg._logos[c.id] = url
+    }
+  } catch (err) { log(`channel list failed: ${err.message}`) }
   for (const c of cfg.channels) {
     const list = []
     for (const ymd of dates) {
@@ -320,6 +333,7 @@ async function srcSkyIt(cfg, dates, log) {
       try {
         const data = await (await get(`https://apid.sky.it/gtv/v1/events?from=${from}&to=${to}&pageSize=999&pageNum=0&env=DTH&channels=${sid}`, {}, ymd < dates[1] ? 1 : 3)).json()
         for (const ev of data.events || []) {
+          if (ev.channel?.logo) (cfg._logos ||= {})[c.id] ||= new URL(ev.channel.logo, 'https://guidatv.sky.it').href
           const cover = ev.content?.imagesMap?.find((x) => x.key === 'cover')?.img?.url
           ;(out[c.id] ||= []).push(prog({
             s: Math.floor(Date.parse(ev.starttime) / 1000),
@@ -337,7 +351,108 @@ async function srcSkyIt(cfg, dates, log) {
   return out
 }
 
-const SOURCES = { skyit: srcSkyIt, epg: srcEpg, tv24: srcTv24, movistar: srcMovistar, tvmaze: srcTvmaze }
+// ---------- source: Allente (allente.dk / .no / .se): one request per day for every channel ----------
+async function srcAllente(cfg, dates, log) {
+  const out = {}
+  const ids = new Map(cfg.channels.map((c) => [c.site_id, c.id]))
+  cfg._logos ||= {}
+  // the API serves UTC days; fetch the day before too so our first local day is complete
+  for (const ymd of [addDays(dates[0], -1), ...dates]) {
+    try {
+      const data = await (await get(`https://www.${cfg.source.site}/api/epg/refetch-epg-data?Start=${ymd}`)).json()
+      for (const ch of data.channels || []) {
+        const id = ids.get(String(ch.id))
+        if (!id) continue
+        if (ch.image) cfg._logos[id] ||= ch.image
+        for (const p of ch.programs || []) {
+          const ep = p.seasonNumber > 0 && p.episodeNumber > 0 ? `S${p.seasonNumber} E${p.episodeNumber}` : ''
+          // episodes come as "Series: Episode title"; date/time-only episode names ("TV AVISEN: 13.11.2026") are noise
+          let t = p.title || '', epName = ''
+          const split = (p.seasonNumber > 0 || p.episodeNumber > 0) && t.match(/^(.+?):\s+(.+)$/)
+          if (split) { t = split[1]; epName = /^[\d\s.:\-]+\.?$|^(avsnitt|afsnit|episode|episodi?|del)\s*\d+$/i.test(split[2]) ? '' : split[2] }
+          ;(out[id] ||= []).push(prog({
+            s: Math.floor(Date.parse(p.eventStart) / 1000),
+            e: Math.floor(Date.parse(p.eventEnd) / 1000),
+            t,
+            sub: [ep, epName].filter(Boolean).join(' · '),
+            g: p.genres?.[0],
+            d: p.shortDescription,
+            i: p.splashImageUri,
+          }))
+        }
+      }
+    } catch (err) { log(`${ymd} failed: ${err.message}`) }
+    await sleep(cfg.source.delay ?? 1500)
+  }
+  return out
+}
+
+// ---------- source: MEO (Portugal): one request per channel per day ----------
+async function srcMeo(cfg, dates, log) {
+  const out = {}
+  const headers = { Origin: 'https://www.meo.pt', Referer: 'https://www.meo.pt/', Accept: 'application/json' }
+  for (const c of cfg.channels) {
+    for (const ymd of dates) {
+      try {
+        const data = await (await get(`https://meogouser.apps.meo.pt/Services/GridTv/GridTv.svc/GetLiveChannelProgramsByDate?callLetter=${encodeURIComponent(c.site_id)}&date=${ymd}&userAgent=IPTV_OFR_GTV`, { headers })).json()
+        for (const p of data.Result || []) {
+          const at = (iso) => { const m = iso?.match(/^(\d{4}-\d{2}-\d{2})T(\d{2}):(\d{2})/); return m && zonedEpoch(m[1], +m[2], +m[3], cfg.tz) }
+          // "Fora De Série T2 - Ep. 9"
+          const ep = decode(p.Title).match(/^(.*?)\s*(?:-\s*)?(?:T(\d+)\s*-?\s*)?Ep\.\s*(\d+)$/)
+          ;(out[c.id] ||= []).push(prog({
+            s: at(p.StartDate),
+            e: at(p.EndDate),
+            t: ep ? ep[1] : p.Title,
+            sub: ep ? (ep[2] ? `S${ep[2]} E${ep[3]}` : `E${ep[3]}`) : '',
+            d: p.Synopsis,
+          }))
+        }
+      } catch (err) { log(`${c.id} ${ymd} failed: ${err.message}`) }
+      await sleep(cfg.source.delay ?? 500)
+    }
+  }
+  return out
+}
+
+// ---------- source: programtv.onet.pl (Poland): one page per channel per day ----------
+async function srcOnet(cfg, dates, log) {
+  const out = {}
+  for (const c of cfg.channels) {
+    const list = []
+    for (let dzien = -1; dzien <= dates.length - 1; dzien++) {
+      try {
+        const html = await (await get(`https://programtv.onet.pl/program-tv/${c.site_id}?dzien=${dzien}`)).text()
+        let day = html.match(/class="dateSwitch">[\s\S]*?<span>(\d{4}-\d{2}-\d{2})<\/span>/)?.[1]
+        const body = html.slice(html.indexOf('class="emissions"'))
+        if (!day || body.length < 20) continue
+        let prevMin = -1
+        for (const li of body.split(/<li class="hh/).slice(1)) {
+          const hm = li.match(/class="hour">(\d{1,2}):(\d{2})</)
+          const title = li.match(/class="titles">\s*<a[^>]*>([\s\S]*?)<\/a>/)?.[1]
+          if (!hm || !title) continue
+          const mins = +hm[1] * 60 + +hm[2]
+          if (mins < prevMin) day = addDays(day, 1) // listing runs past midnight
+          prevMin = mins
+          const odc = decode(title).match(/^(.*?)\s*,\s*(odc\.\s*.+)$/) // "Barwy szczęścia , odc. 3440"
+          list.push({
+            s: zonedEpoch(day, +hm[1], +hm[2], cfg.tz),
+            t: odc ? odc[1] : title,
+            sub: odc?.[2],
+            g: li.match(/class="type">([\s\S]*?)<\/span>/)?.[1],
+            d: li.match(/<p>([\s\S]*?)<\/p>/)?.[1],
+          })
+        }
+      } catch (err) { log(`${c.id} dzien=${dzien} failed: ${err.message}`) }
+      await sleep(cfg.source.delay ?? 1500)
+    }
+    // only start times are published: each programme ends when the next starts
+    const uniq = [...new Map(list.map((p) => [p.s, p])).values()].sort((a, b) => a.s - b.s)
+    out[c.id] = uniq.slice(0, -1).map((p, i) => prog({ ...p, e: uniq[i + 1].s }))
+  }
+  return out
+}
+
+const SOURCES = { allente: srcAllente, meo: srcMeo, onet: srcOnet, skyit: srcSkyIt, epg: srcEpg, tv24: srcTv24, movistar: srcMovistar, tvmaze: srcTvmaze }
 
 // ---------- logos ----------
 let iptvLogos
@@ -355,15 +470,27 @@ async function iptvLogo(xmltv) {
 }
 
 const exists = (p) => access(p).then(() => true, () => false)
+
+// logo background hints computed by tools/logo-tones.py (needs Pillow) and cached in logos/tones.json
+let tones
+/** "light" | "dark" for a logo path like "logos/gb/bbcone.png", if the cache knows this exact file */
+export async function logoBg(logo) {
+  if (!logo) return null
+  if (!tones) tones = JSON.parse(await readFile(join(ROOT, 'logos', 'tones.json'), 'utf8').catch(() => '{}'))
+  const hit = tones[logo]
+  if (!hit) return null
+  const buf = await readFile(join(ROOT, logo)).catch(() => null)
+  return buf && createHash('sha1').update(buf).digest('hex') === hit.sha1 ? hit.bg : null
+}
 const LOGO_EXT = ['png', 'webp', 'jpg']
 
-async function logoFor(cc, ch, log) {
+export async function logoFor(cc, ch, log, extraLogo) {
   const dir = join(ROOT, 'logos', cc)
   for (const ext of LOGO_EXT) if (await exists(join(dir, `${ch.id}.${ext}`))) return `logos/${cc}/${ch.id}.${ext}`
   await mkdir(dir, { recursive: true })
   // Wikimedia SVGs → their PNG renders (apps can't always draw SVG)
-  const png = (u) => u.replace(/^(https:\/\/upload\.wikimedia\.org\/wikipedia\/[a-z]+)\/([0-9a-f]\/[0-9a-f]{2})\/([^/]+\.svg)$/i, '$1/thumb/$2/$3/512px-$3.png')
-  for (const url of [ch.logo, ...(await iptvLogo(ch.xmltv))].filter(Boolean).map(png)) {
+  const png = (u) => u.replace(/^(https:\/\/upload\.wikimedia\.org\/wikipedia\/[a-z]+)\/([0-9a-f]\/[0-9a-f]{2})\/([^/]+\.svg)$/i, '$1/thumb/$2/$3/500px-$3.png')
+  for (const url of [ch.logo, ...(await iptvLogo(ch.xmltv)), extraLogo].filter(Boolean).map(png)) {
     try {
       await sleep(400) // Wikimedia rate-limits bursts
       const res = await get(url, {}, 3)
@@ -430,8 +557,9 @@ async function buildCountry(cc) {
   for (const d of dates) await writeFile(join(dir, `${d}.json`), JSON.stringify({ date: d, programs: files[d] }))
   const channels = []
   for (const c of withData) {
-    const logo = await logoFor(cc, c, log)
-    channels.push({ id: c.id, name: c.name, group: c.group, ...(logo && { logo }) })
+    const logo = await logoFor(cc, c, log, cfg._logos?.[c.id])
+    const bg = await logoBg(logo)
+    channels.push({ id: c.id, name: c.name, group: c.group, ...(logo && { logo }), ...(bg && { logoBg: bg }) })
   }
   if (await exists(join(ROOT, 'logos', cc))) await cp(join(ROOT, 'logos', cc), join(OUT, 'logos', cc), { recursive: true })
   const updatedAt = Math.floor(Date.now() / 1000)
