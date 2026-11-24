@@ -22,12 +22,9 @@ env:
   EPG_SHA: 6a74973f1e0657184bf168e589a043ac66bac551
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
     timeout-minutes: 30
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/checkout@v4
@@ -73,5 +70,22 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: out
+
+  # Separate job: deploy-pages sometimes can't see an artifact uploaded a second earlier
+  # in the same job ("No artifacts named github-pages were found"), so retry once after a pause.
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.retry.outputs.page_url || steps.deployment.outputs.page_url }}
+    steps:
       - id: deployment
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+      - if: steps.deployment.outcome == 'failure'
+        run: sleep 60
+      - id: retry
+        if: steps.deployment.outcome == 'failure'
         uses: actions/deploy-pages@v4
